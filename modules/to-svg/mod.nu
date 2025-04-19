@@ -120,7 +120,7 @@ def tokenize_line [] {
 
 }
 
-def "str indices-of" [pattern:string] string->list<int> {
+def "str indices-of" [pattern:string]: string -> list<int> {
   let searchString = $in
   let parsePattern = [ '(?P<matches>', $pattern, ')' ] | str join
   let matches = ($searchString | parse -r $parsePattern | get matches)
