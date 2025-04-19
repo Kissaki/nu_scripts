@@ -1,0 +1,754 @@
+use std/util repeat
+use std/xml *
+
+const default_state = {
+  text-color: null
+  text-background: null
+  bold: false
+  italics: false
+  underline: false
+  strikethrough: false
+  reverse: false
+  dimmed: false
+  blink: false
+  hidden: false
+
+  foreground-content: []
+  background-content: []
+}
+
+# Temporarily exported for testing
+# Remove when done
+def tokenize_line [] {
+  let line = $in
+  
+  # Find the indices of all ansi
+  # formatting codes in the text
+  let ansi_indices = (
+    $line | str indices-of "\\e\\[.*?m"
+    | upsert type { "ansi" }
+    | rename -c { result: "content"}
+    | update content { str replace --regex "\\e\\[(.*)m" "$1"}
+    | update content { split row ";" | each { into int } }
+  )
+
+  # Return early if there were no tokens, only text
+  if $ansi_indices == [] {
+    return [{
+      type: "text"
+      content: $line
+    }]
+  }
+
+  # Identify the indices of all gaps
+  # between the ansi formatting codes
+  let gaps = (
+    $ansi_indices.end
+    | zip ($ansi_indices.begin | skip)
+    | each {|gap_set|
+        {
+          begin: $gap_set.0
+          end: $gap_set.1
+        }
+      }
+  )
+
+  # If there's a text token before the first
+  # ansi token, we need to include it
+  let first_ansi_escape_start = try {
+    $ansi_indices | first | get begin
+  } catch { 0 }
+  let opening_text = (
+    if $first_ansi_escape_start > 0 {
+      [{
+        content: ($line | str substring 0..($first_ansi_escape_start - 1))
+        begin: 0
+        end: $first_ansi_escape_start
+        #end: ($first_ansi_escape_start - 1)
+        type: "text"
+      }]
+    } else {
+      []
+    }
+  )
+
+  # And if there's text after the last
+  # ansi token, we need to include it
+  let last_ansi_escape_end = try {
+    $ansi_indices | last | get end
+  } catch { $line | str length }
+  let closing_text = (
+    if ($last_ansi_escape_end < ($line | str length)) {
+      [{
+        content: ($line | str substring ($last_ansi_escape_end)..($line | str length))
+        begin: $last_ansi_escape_end
+        end: ($line | str length)
+        type: "text"
+      }]
+    } else {
+      []
+    }
+  )
+
+  # Create a secondary table
+  # with the text content that
+  # comes "in the gaps" between
+  # the ansi codes.
+  let text_indices = (
+    $gaps | each {|gap|
+    let content = (
+      $line | str substring ($gap.begin)..<($gap.end)
+    )
+
+    # Text content record matching the
+    # ansi-record fields
+    {
+      content: $content
+      begin: $gap.begin
+      end: $gap.end
+      type: "text"
+    }
+  }) ++ $opening_text ++ $closing_text
+
+  # Combine the two tables
+  [
+    ...$ansi_indices
+    ...$text_indices
+  ]
+  | sort-by begin
+  | where content != ""
+
+}
+
+def "str indices-of" [pattern:string] string->list<int> {
+  let searchString = $in
+  let parsePattern = [ '(?P<matches>', $pattern, ')' ] | str join
+  let matches = ($searchString | parse -r $parsePattern | get matches)
+
+  $matches | reduce -f [] {|match,results|
+    let startSearchFrom = (
+      if $results == [] { 0 } else { $results | last | get end }
+    )
+
+    let begin = ($searchString | str index-of $match --range ($startSearchFrom)..)
+    let end = $begin + ($match | str length)
+    
+    $results | append {
+      result: $match
+      begin: $begin
+      end: $end
+    }
+  }
+}
+
+def svg-boilerplate [
+  --width (-w): string
+  --height(-h): string
+  --fg-color (-f): string
+  --bg-color (-b): string
+  --line-height: int
+  --font-size: int
+] {
+
+  {
+    tag: "svg"
+    attributes: {
+      width: $"($width)"
+      height: $"($height)"
+      xmlns: "http://www.w3.org/2000/svg"
+    }
+    content: [
+      {
+        tag: style
+        content: [ "
+tspan {
+  white-space: pre;
+}
+" ]
+      }
+      {
+        tag: "rect"
+        attributes: {
+          width: "100%"
+          height: "100%"
+          fill: $"($bg_color)"
+        }
+
+      }
+      {
+        tag: "text"
+        attributes: {
+          y: "20"
+          font-family: "monospace"
+          font-size: $"($font_size)"
+          fill: $"($fg_color)"
+          text-anchor: "middle"
+          #'xml:space': "preserve"
+        }
+      }
+    ]
+  }
+}
+
+def "into list" [] {
+  each {||}
+}
+
+def sgr-ranges [] {
+  [
+    ...(30..37 | into list)
+    ...(90..97 | into list)
+    ...(40..47 | into list)
+    ...(100..107 | into list)
+  ]
+}
+
+def attribute-ranges [] {
+  [
+    ...(1..9 | into list)
+    ...(21..29 | into list) # Reset individual attributes
+  ]
+}
+
+def basic-colors [] {
+  [
+    # Standard (Start at 30 for foreground, 40 for background)
+    [0, 0, 0]         # Black
+    [205, 0, 0]       # Red/Maroon
+    [0, 205, 0]       # Green
+    [205, 205, 0]     # Yellow/Olive
+    [0, 0, 238]       # Blue/Navy
+    [205, 0, 205]     # Magenta/Purple
+    [0, 205, 205]     # Cyan/Teal
+    [229, 229, 229]   # White/Silver
+    # Bright Colors (Standrd index + 60)
+    [127, 127, 127]   # Bright Black (Gray)
+    [255, 0, 0]       # Bright Red/Red
+    [0, 255, 0]       # Bright Green/Lime
+    [255, 255, 0]     # Bright Yellow/Yellow
+    [92, 92, 255]     # Bright Blue/Blue
+    [255, 0, 255]     # Bright Magenta/Fuchsia
+    [0, 255, 255]     # Bright Cyan/Aqua
+    [255, 255, 255]    # Bright White/White
+  ]
+}
+
+# Returns a state record where the color is set to foreground
+# or background RGB value
+def set-color [color, --background, --color-type: string] {
+  let attr = match $background {
+    true => "text-background"
+    false => "text-color"
+  }
+  
+  match $color_type {
+    sgr => {
+      match $color {
+        $std_fg if $std_fg in 30..37 => {
+          text-color: ((basic-colors) | get ($std_fg - 30))
+        }
+        $bright_fg if $bright_fg in 90..97 => {
+          text-color: ((basic-colors) | get ($bright_fg - 82))
+        }
+        $std_bg if $std_bg in 40..47 => {
+          text-background: ((basic-colors) | get ($std_bg - 40))
+        }
+        $bright_bg if $bright_bg in 100..107 => {
+          text-background: ((basic-colors) | get ($bright_bg - 92))
+        }
+      }
+    }
+
+    xterm => {
+      match $color {
+        # Primary and Bright Colors
+        0..15 => ((basic-colors) | get $color)
+
+        # RGB Color Cube
+        16..231 => {
+          let cube_index = $color - 16
+          # Calculated Red, Green, Blue values
+          [
+            ($cube_index // 36 * 51)
+            ($cube_index mod 36 // 6 * 51)
+            ($cube_index mod 36 mod 6 * 51 )
+          ]
+        }
+
+        # Grayscale
+        232..255 => {
+          let gray = ($color - 232) * 10 + 8
+          [ $gray, $gray, $gray ]
+        }
+      }
+      | {
+        $attr: $in
+      }
+    }
+
+    _ => {
+      match $color {
+        [ $r $g $b ] => { $attr: $color }
+      }
+    }
+  }
+}
+
+def create-tspan [text] {
+  let state = $in
+
+  let fill = match $state.text-color {
+    [ $r, $g, $b ] => {
+      $"rgb\(($r),($g),($b)\)"
+    }
+  }
+
+  let background = match $state.text-background {
+    [ $r, $g, $b ] => {
+      $"rgb\(($r),($g),($b)\)"
+    }
+  }
+
+
+  let font_weight = match $state.bold {
+    true => 'bold'
+  }
+
+  let text_decoration = (
+    match ([ $state.underline $state.strikethrough ] | any {$in == true}) {
+      false => ""
+      true => {
+        [
+          (if $state.underline { "underline" } else { "" })
+          (if $state.strikethrough { "line-through" } else { "" })
+        ]
+        | str join ' '
+        | $'($in | str trim)'
+      }
+    }
+  )
+
+  let font_style = match $state.italics {
+    true => 'italic'
+  }
+
+  let opacity = match $state.dimmed {
+    true => '0.5'
+  }
+
+  let opacity = match $state.hidden {
+    true => '0'
+  }
+
+  let attributes = {
+    fill: $fill
+    font-weight: $font_weight
+    text-decoration: $text_decoration
+    font-style: $font_style
+    opacity: $opacity
+    background: $background
+  }
+  | transpose attr value
+  | where value != null and value != ""
+  | transpose -dr 
+  | if $in == [] {{}} else $in
+
+  # Add an animate tag when blink is set.
+  let content = ([ $text ] ++ (
+    match $state.blink {
+      true => {
+        tag: "animate"
+        attributes: {
+          attributeName: "opacity"
+          values: "1;0.33;1"
+          dur: "1.5s"
+          repeatCount: "indefinite"
+        }
+      }
+      false => {
+        []
+      }
+    }
+  ))
+
+  let res = {
+    tag: 'tspan'
+    attributes: $attributes
+    content: $content
+  } 
+  $res
+}
+
+def attribute-state [attr_id] {
+  match $attr_id {
+    1 => { bold: true }
+    2 => { dimmed: true }
+    3 => { italics: true }
+    4 => { underline: true }
+    5 => { blink: true }
+    7 => { reverse: true }
+    8 => { hidden: true }
+    9 => { strikethrough: true }
+    21 => { bold: false }
+    22 => { dimmed: false }
+    23 => { italics: false }
+    24 => { underline: false }
+    25 => { blink: false }
+    27 => { reverse: false }
+    28 => { hidden: false }
+    29 => { strikethrough: false }
+    _ => {{}}
+  } 
+}
+
+# Input: A list of ANSI formatting
+# codes from a token.content
+# Output: Attribute state
+def process-attributes [attrs: list] {
+  let state = ($in | default {})
+  mut remaining = []
+
+  # Each match arm returns a subset of a state
+  # that is *merged* with the current state to
+  # produce a new state
+  # "subset" example: { text_color: [ 0, 0, 0 ]}
+  # 
+  # In each match arm, we need to capture codes that
+  # remain after the match so that they can be 
+  # recursed
+  let new_state = ($state | merge (
+    match $attrs {
+      # ANSI Reset
+      [ 0 ..$rest ] => {
+        # Reset everything to defaults except for the foreground content
+        $remaining = $rest
+        $default_state | reject foreground-content
+      }
+
+      # Set color via RGB
+      [ 38 2 $r $g $b ..$rest ] => {
+        $remaining = $rest
+        set-color [ $r $g $b ]
+      }
+
+      # Set a background color via RGB
+      # TODO
+      [ 48 2 $r $g $b ..$rest ] => {
+        $remaining = $rest
+        #let state_bg = ($state.background-indices? | default [])
+        #{ background-indices: ($state_bg ++ [ [ 0, 6, [ $r, $g, $b ]]])}
+        #{ background-indices: [ 5 ]}
+        set-color --background [ $r $g $b ]
+      }
+      
+      # Attribute alone
+      [$attr ..$rest] if ($attr in (attribute-ranges)) => {
+        $remaining = $rest
+        attribute-state $attr
+      }
+
+      # Attribute + SGR color
+      # Commenting out, since this will be handled via recursion instead
+      #[ $attr $sgr_color ] if ($attr in 1..9) and ($sgr_color in (sgr-ranges)) => {
+      #  (attribute-state $attr)
+      #  | merge (set-color --color-type sgr $sgr_color)
+      #}
+
+      # SGR color
+      [ $sgr_color ..$rest] if ($sgr_color in (sgr-ranges)) => {
+        $remaining = $rest
+        set-color --color-type sgr $sgr_color
+      } 
+
+      # Commented since this should be recursed now
+      # Attribute followed by an RGB color
+      #[ $attr 38 2 $r $g $b ] if ($attr in 1..9) => {
+        #(attribute-state $attr)
+        #| merge (set-color [$r, $g, $b])
+      #}
+
+      # xterm colors
+      [ 38 5 $xcolor  ..$rest ] => {
+        $remaining = $rest
+        (set-color $xcolor --color-type xterm)
+      }
+
+      # Recursed now
+      # Attr + xterm Color
+      #[ $attr 38 5 $xcolor ] if ($attr in 1..9) => {
+        #(attribute-state $attr)
+        #| merge (set-color $xcolor --color-type xterm)
+      #}
+
+      # Default foreground
+      [ 39 ..$rest] => {
+        $remaining = $rest
+        { text-color: null }
+      }
+
+      # Default background
+      [ 49 ..$rest ] => {
+        $remaining = $rest
+        { text-background: null }
+      }
+
+      # Otherwise, no state change for
+      # unimplemented attributes
+      # Note: We need to capture these so that
+      # we can at least recurse the next set if
+      # present
+      [ $unknown ..$rest ] => {
+        $remaining = $rest
+        print ("No match found for: \n" + ($unknown | into string | table -e ))
+
+        {
+        }
+      }
+      _ => {
+        print "ERROR"
+        error make --unspanned { msg: "Should never fail a match"}
+      }
+    }
+  ))
+
+  # Return
+  match $remaining {
+    # Return the new state if there's nothing left to process
+    null => $new_state
+    # Or merge the recursion otherwise
+    $rest => {
+      $new_state | process-attributes $rest
+    }
+    _ => { print "Error - Fell through" }
+  }
+}
+
+# existing_state: color or attributes from previous
+# lines that have not yet been reset.
+def process-line-tokens [preexisting_state?] {
+  let tokens = ($in | tokenize_line)
+  let starting_line_state = ($preexisting_state | default $default_state)
+
+  # Initial state
+  # Currently new state for each line
+  # But needs to preserve existing state
+  # from previous line(s)
+
+  # Reduce tokens to a state.
+  # Each token results in a new state.
+  # Changes are merged into cumultative state.
+  $tokens | reduce -f $starting_line_state {|token,state|
+    $state | merge (
+      match $token.type {
+        # ANSI formatting escapes just change the state of the 
+        # attributes needed for the tspan
+        'ansi' => {
+          process-attributes $token.content
+        }
+
+        # When we find a text token, we
+        # create a new tspan based on the
+        # ANSI attributes in the current state
+        'text' => {
+          {
+            foreground-content: ($state.foreground-content ++ ($state | create-tspan $token.content))
+          }
+        }
+      }
+    )
+  }
+}
+
+def create-xml-tspans [--line-height: int] {
+  enumerate | flatten
+  | reduce -f [] {|line,lines|
+      # If the line is empty, insert a zero-width
+      # space so that the tspan doesn't get collapsed
+      # by `dy`
+      let foreground_content = match $line.foreground-content.content {
+        [[ "" ]] => {
+          #$line.tspans | upsert content { [ '&#8203;' ] }
+          $line.foreground-content | upsert content { [ ("<tspan>&#8203;</tspan>" | from xml) ] }
+        }
+        _ => $line.foreground-content
+      }
+
+      let has_background = $line.background-content != []
+
+      # If we have a background, and this is the first line
+      # the position of the background is dy 0
+      # If it's any other line, the "cursor" is advanced by
+      # the line_height
+      let bg_dy = match $line.index {
+        0 => "0"
+        _ => ($line_height | into string)
+      }
+
+      # If we don't have a background, and this is the first line,
+      # the position of the main content is dy 0.
+      # If it's any other line number, and it does have a background,
+      # we don't advance the cursor (dy 0) so that we overprint the content
+      # on top of the background
+      let dy = match $line.index {
+        0 => "0"
+        _ => {if $has_background { "0" } else {($line_height | into string)}}
+      }
+
+      let bg_line = if $line.background-content != [] {
+        let background_content = $line.background-content
+        {
+          tag: 'tspan'
+          attributes: { x: "50%" dy: $bg_dy }
+          content: [ ...$background_content ]
+        }
+      } 
+
+      let line = {
+        tag: 'tspan'
+        attributes: { x: "50%" dy: $dy }
+        content: [ ...$foreground_content ]
+      }
+
+      # If we have a background, add it, then add the
+      # main content after (over) it.
+      # Otherwise just add the main line
+      if $bg_line != null {
+        $lines ++ $bg_line ++ $line
+      } else {
+        $lines ++ $line
+      }
+    }
+
+}
+
+def add-background [] {
+  let foreground_subspans = $in
+  if "background" in ($foreground_subspans | flatten | columns) {
+    # For every tspan in the line, calculate the starting position
+    # and, if it has a background, add the full block characters to a 
+    # new line that will be placed behind the current line
+
+    $foreground_subspans | each {|foreground_tspan|
+      let span_length = ($foreground_tspan.content.0 | str length --grapheme-clusters)
+      if "background" in ($foreground_tspan.attributes| columns) {
+        let background_color = $foreground_tspan.attributes.background
+        {
+          tag: tspan
+          content: [('' | fill -c (char --unicode '2588') -w $span_length | str join '')]
+          attributes: {
+            fill: $background_color
+          }
+        }
+      } else {
+        {
+          tag: tspan
+          content: [('' | fill -c (char --unicode '00A0') -w $span_length | str join '')]
+          attributes: {} 
+        }
+      }
+    }
+  } else {
+    []
+  }
+
+}
+
+# Initial run through the pipeline input
+def process-input-lines [] {
+  table -e
+  | lines
+  #  This can be a useful debugging statement, so leaving it commented
+  #| each { tee { table -e | encode utf-8 | print $in }}
+  #| each { process-line-tokens }
+  | reduce -f [] {|line,line_states|
+      let previous_line_state = match ($line_states | length) {
+        # First line gets default state
+        0 => $default_state
+        # Subsequent lines take on state of the previous line
+        # minus the content (tspans)
+        _ => ($line_states | last | merge { foreground-content: [] })
+      }
+
+      let line_state = ($line | process-line-tokens $previous_line_state)
+      let background_content = $line_state.foreground-content | add-background
+
+      $line_states ++ ($line_state | merge { background-content: $background_content })
+    }
+    | select foreground-content background-content
+}
+
+def get-line-length [] {
+  xaccess [ tspan * * ]
+  | str join ''
+  | str length --grapheme-clusters
+}
+def get-max-line-length [] {
+  # input is the list of parent tspans for each line
+  each { get-line-length }
+  | math max
+}
+
+def pad-lines-to-max [max_width: int] {
+  each {|line|
+    let line_length = ($line | get-line-length)
+    if $line_length < $max_width {
+      let pad_width = $max_width - $line_length
+      let padspan = [ ('' | fill -c ' ' -w $pad_width) ]
+      $line | update  content { append $padspan }
+      #$line
+    } else {
+      $line
+    }
+  }
+}
+
+export def "to svg" [
+  --width (-w): string = "800"
+  --height(-h): string
+  --fg-color (-f): string       # Foreground color, using "#rrggbb" values
+  --bg-color (-b): string      # Background color, using #rrggbb" values
+  --line-height: int = 16
+  --font-size: int = 14
+] {
+  # Warning: Don't use $in here - It eats the metadata and won't
+  # properly handle lscolors.  Because we can't collect $in, 
+  # this assignment *must* be the first line in the command
+  let line_states = process-input-lines
+
+  let fg_color = (
+    $fg_color
+    | default $env.config?.color_config?.foreground?
+    | default "#a5a2a2"
+  )
+  let bg_color = (
+    $bg_color
+    | default $env.config?.color_config?.background?
+    | default "#090300"
+  )
+
+  let xml_tspans = ($line_states | create-xml-tspans --line-height $line_height)
+
+  let num_lines = ($line_states | length)
+  let height = (
+    $height
+    | default ($num_lines * $line_height + 20)
+  )
+
+  let max_line_width = ($xml_tspans | get-max-line-length)
+  let xml_tspans = ($xml_tspans | pad-lines-to-max $max_line_width)
+
+  let svg_boilerplate = (
+    svg-boilerplate
+      --width $width
+      --height $height
+      --fg-color $fg_color
+      --bg-color $bg_color
+      --line-height $line_height
+      --font-size $font_size
+  )
+
+  
+  $svg_boilerplate
+  | upsert content.2.content $xml_tspans
+  | to xml
+}
