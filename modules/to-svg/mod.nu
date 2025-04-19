@@ -705,6 +705,10 @@ def pad-lines-to-max [max_width: int] {
   }
 }
 
+export def test [] {
+  process-input-lines
+}
+
 export def "to svg" [
   --width (-w): string = "800"
   --height(-h): string
