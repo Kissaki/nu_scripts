@@ -108,7 +108,7 @@ def tokenize_line [] {
       end: $gap.end
       type: "text"
     }
-  }) ++ $opening_text ++ $closing_text
+  }) | append $opening_text | append $closing_text
 
   # Combine the two tables
   [
@@ -354,7 +354,7 @@ def create-tspan [text] {
   | if $in == [] {{}} else $in
 
   # Add an animate tag when blink is set.
-  let content = ([ $text ] ++ (
+  let content = ([ $text ] | append (
     match $state.blink {
       true => {
         tag: "animate"
@@ -436,7 +436,7 @@ def process-attributes [attrs: list] {
       [ 48 2 $r $g $b ..$rest ] => {
         $remaining = $rest
         #let state_bg = ($state.background-indices? | default [])
-        #{ background-indices: ($state_bg ++ [ [ 0, 6, [ $r, $g, $b ]]])}
+        #{ background-indices: ($state_bg | append [ [ 0, 6, [ $r, $g, $b ]]])}
         #{ background-indices: [ 5 ]}
         set-color --background [ $r $g $b ]
       }
@@ -551,7 +551,7 @@ def process-line-tokens [preexisting_state?] {
         # ANSI attributes in the current state
         'text' => {
           {
-            foreground-content: ($state.foreground-content ++ ($state | create-tspan $token.content))
+            foreground-content: ($state.foreground-content | append ($state | create-tspan $token.content))
           }
         }
       }
@@ -613,9 +613,9 @@ def create-xml-tspans [--line-height: int] {
       # main content after (over) it.
       # Otherwise just add the main line
       if $bg_line != null {
-        $lines ++ $bg_line ++ $line
+        $lines | append $bg_line | append $line
       } else {
-        $lines ++ $line
+        $lines | append $line
       }
     }
 
@@ -672,7 +672,7 @@ def process-input-lines [] {
       let line_state = ($line | process-line-tokens $previous_line_state)
       let background_content = $line_state.foreground-content | add-background
 
-      $line_states ++ ($line_state | merge { background-content: $background_content })
+      $line_states | append ($line_state | merge { background-content: $background_content })
     }
     | select foreground-content background-content
 }
