@@ -1,3 +1,6 @@
+# Usage:
+#  `use modules/to-svg/ *`
+#  `glob themes/nu-themes/*.nu | first 3 | each {|x| open $x | to svg | save $"($x).svg" -f }`
 use std/util repeat
 use std/xml *
 
