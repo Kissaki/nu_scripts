@@ -20,66 +20,100 @@ def build-completion [fish_file: path, nu_file: path] {
 # returns a table of flags to arguments
 # currently only handles complete's args that don't use boolean flags (e.g. -f)
 def parse-fish [] {
-    let data = (
-        $in | tokenize-complete-lines
-        | where (($it | length) mod 2) == 1       # currently we only support complete args that all have args (pairs). including 'complete' this means an odd number of tokens
-        | each { |tokens| $tokens | pair-args }   # turn the tokens into a list of pairs
-        | flatten                                 # merge them all into a top level label
-    )
-    # default every column in the table to "" to make processing easier
-    # some values having null often breaks nu or requires lots of checking
-    $data | columns | reduce -f $data { |c, acc|
-        $acc | default "" $c
-    }
-    | default "" a
-    | cleanup_subcommands # clean garbage subcommands
+    $in
+      | find-complete-args
+      | each { 
+          tokenize-complete-args
+          | pair-tokens
+          | translate-pairs
+      }
+      | cleanup-values
+}
+
+def find-complete-args [] {
+    lines | where $it starts-with 'complete ' | each { str substring 9.. }
 }
 
 # tokenize each line of the fish file into a list of tokens
 # make use of detect columns -n which with one like properly tokenizers arguments including across quotes
-def tokenize-complete-lines [] {
-    lines
-    | where ($it | str length) > 0             # remove any empty lines
-    | where $it starts-with 'complete'         # only complete command lines
-    | each { 
-      str replace -a "\\\\'" ""             # remove escaped quotes ' which break detect columns
-      | str replace -a "-f " ""               # remove -f which is a boolean flag we don't support yet
-      | detect columns -n
-      | transpose -i tokens
-      | get tokens
+def tokenize-complete-args [] {
+    #str replace -a "\\\\'" ""             # remove escaped quotes ' which break detect columns
+    detect columns --no-headers
+    | transpose --ignore-titles tokens | get tokens
+}
+
+def pair-tokens [] {
+  window 2 --remainder | where $it.0 starts-with '-' | each { if $in.1 starts-with '-' { [$in.0] } else { $in } }
+}
+
+def translate-pairs [] {
+  each {|pair|
+    match $in.0 {
+      '-d' => { description: $in.1 }
+      '--description' => { description: $in.1 }
+      '-c' => { command: $in.1 }
+      '-s' => { short-option: $in.1 }
+      '-l' => { long-option: $in.1 }
+      '-o' => { old-option: $in.1 }
+      '-f' => { no-files: true }
+      '-r' => { require-parameter: true }
+      '-x' => { require-parameter: true, no-files: true }
+      '-a' => { arguments: $in.1 }
+      '-n' => { condition: $in.1 }
+      '-k' => { keep-order: true }
+      '-C' => { do-complete: $in.1 } # try to find all possible completions for the specified string. Otherwise use the current command line.
+      '--escape' => { escape: true } # when used with -C escape special characters
+      _ => { $'unknown_($in.0)': (if ($in | length) == 2 { $pair.1 }) }
     }
+  }
+  | reduce {|it,acc| $acc | merge $it }
 }
 
-# turn a list of tokens for a line into a record of {flag: arg}
-def pair-args [] {
-    where $it != complete                                           # drop complete command as we don't need it
-    | window 2 -s 2                                                 # group by ordered pairs, using window 2 -s 2 instead of group 2 to automatically drop any left overs
-    | each { |pair|
-        [
-            {$"($pair.0 | str trim -c '-')": ($pair.1 | unquote)}   # turn into a [{<flag> :<arg>}] removing quotes
-        ]
-    }
-    | reduce { |it, acc| $acc | merge $it }                         # merge the list of records into one big record
+def cleanup-values [] {
+  each {|row|
+    let cols = $row | columns
+    mut r = $row
+    for col in $cols { $r = $r | update $col { $row | get $col | cleanup-value } }
+    $r
+  }
 }
 
-def unquote [] {
-    str trim -c "\'"   # trim '
-    | str trim -c "\"" # trim "
+def cleanup-value [] {
+  match ($in | describe) {
+    'string' => ($in | str trim -c "\'"
+        | str trim -c "\""
+        | if $in starts-with '(' { 'unspecified/various' } else { $in }
+        ),
+    _ => $in
+  }
 }
 
-# remove any entries which contain things in subcommands that may be fish functions or incorrect parses
-def cleanup_subcommands [] {
-    where (not ($it.a | str contains "$")) and (not ($it.a | str starts-with "-")) and (not ($it.a starts-with "("))
+def gen [] {
+  group-by command
+    | each { gen-cmd }
+}
+def gen-cmd [] : record<ninja: list<any>> -> any {
+    let cmd = $in | columns | first
+    let l = $in | get $cmd | each { gen-arg }
+    print ({ cmd: $cmd l: $l } | describe)
+    { cmd: $cmd l: $l }
+    
+}
+def gen-arg [] {
+  let $cols = $in | columns
+  if 'long-option' in $cols {
+    
+  }
 }
 
 # from a parsed fish table, create the completion for it's command and sub commands
 def make-commands-completion [] {
     let fishes = $in
     $fishes
-    | get c        # c is the command name
+    | get command
     | uniq         # is cloned on every complete line
     | each { |command|
-        $fishes | where c == $command | make-subcommands-completion [$command]
+        $fishes | where command == $command | make-subcommands-completion [$command]
         | str join "\n\n"
     }
 }
