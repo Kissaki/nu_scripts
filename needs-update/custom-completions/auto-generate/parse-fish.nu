@@ -39,6 +39,7 @@ def find-complete-args [] {
 def tokenize-complete-args [] {
     detect columns --no-headers
     | transpose --ignore-titles tokens | get tokens
+    | each { unquote-value }
 }
 
 def pair-tokens [] {
@@ -79,10 +80,15 @@ def cleanup-values [] {
 
 def cleanup-value [] {
   match ($in | describe) {
-    'string' => ($in | str trim -c "\'"
-        | str trim -c "\""
-        | if $in starts-with '(' { 'unspecified/various' } else { $in }
+    'string' => ($in | if $in starts-with '(' { 'unspecified/various' } else { $in }
         ),
+    _ => $in
+  }
+}
+
+def unquote-value [] : any -> any {
+  match ($in | describe) {
+    'string' => ($in | str trim -c "\'" | str trim -c "\"" ),
     _ => $in
   }
 }
