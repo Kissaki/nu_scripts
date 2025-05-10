@@ -8,23 +8,23 @@
 .fish:
 complete
 -c --command COMMAND
--p --path COMMAND (absolute path, optional wildcards)
-no -c no -p: one non-option argument
--e --erase: deletes completion
 -s --short-option SO
 -l --long-option LO
 -o --old-option O
+-d --description DESC
+-p --path COMMAND (absolute path, optional wildcards)
+no -c no -p: one non-option argument
 -a --arguments ARGS
--k --keep-order
 -f --no-files: followed by filename
 -F --force-files: may be followed by filename, even if another -f
 -r --require-parameter: (without it: -xFoo --color=auto. With it: next arg is arg of the option)
 -x --exclusive: short for -r + -f
--d --description DESC
 -w --wraps WRAPPEDCMD
 -n --condition COND (shell cmd returns 0)
 -C --do-complete STR: try to find all possible completions for the specified string. Otherwise use the current command line.
 --escape: when used with -C escape special characters
+-e --erase: deletes completion
+-k --keep-order
 -h --help
 source: https://fishshell.com/docs/current/completions.html
 
