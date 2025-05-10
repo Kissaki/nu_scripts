@@ -88,90 +88,36 @@ def cleanup-value [] {
   }
 }
 
-def gen [] {
+def gen [] : any -> string {
   group-by command
     | each { gen-cmd }
+    | str join "\n"
 }
-def gen-cmd [] : record<ninja: list<any>> -> any {
+def gen-cmd [] : record<ninja: list<any>> -> string {
     let cmd = $in | columns | first
-    let l = $in | get $cmd | each { gen-arg }
-    print ({ cmd: $cmd l: $l } | describe)
+    let list = $in | get $cmd
+    let l = $list | each { gen-flags } | where {|x| $x | is-not-empty }
     { cmd: $cmd l: $l }
-    
+    [
+      $'extern "($cmd)" ['
+      ($l | str join "\n")
+      ']'
+    ] | str join "\n"
 }
-def gen-arg [] {
-  let $cols = $in | columns
-  if 'long-option' in $cols {
-    
-  }
-}
-
-# from a parsed fish table, create the completion for it's command and sub commands
-def make-commands-completion [] {
-    let fishes = $in
-    $fishes
-    | get command
-    | uniq         # is cloned on every complete line
-    | each { |command|
-        $fishes | where command == $command | make-subcommands-completion [$command]
-        | str join "\n\n"
-    }
-}
-
-# make the action nu completion string from subcommand and args
-# subcommand can be empty which will be the root command
-def make-subcommands-completion [parents: list<string>] {
-    let quote = '"' # a `"`
-
-    let fishes = $in
-
-    $fishes
-    | group-by a                                                                      # group by sub command (a flag)
-    | transpose name args                                                             # turn it into a table of name to arguments
-    | each {|subcommand|
-        [
-            # description
-            (if ('d' in ($subcommand.args | columns)) and ($subcommand.args.d != "") { $"# ($subcommand.args.d.0)\n" })
-            # extern name
-            $'extern "($parents | append $subcommand.name | str join " " | str trim)"'
-            # params
-            " [\n"
-                (
-                    $fishes
-                    | if ('n' in ($subcommand | columns)) {
-                        if ($subcommand.name != "") {
-                            where ($it.n | str contains $subcommand.name)                     # for subcommand -> any where n matches `__fish_seen_subcommand_from arg` for the subcommand name
-                        } else {
-                            where ($it.n == "__fish_use_subcommand") and ($it.a == "")         # for root command -> any where n ==  __fish_use_subcommand and a is empty. otherwise a means a subcommand
-                        }
-                    } else {
-                        $fishes                                                               # catch all
-                    }
-                    | build-flags
-                    | str join "\n"
-                )
-                "\n\t...args"
-            "\n]"
-        ]
-        | str join
-    }
+def gen-flags [] : any -> string {
+  let table = $in
+  let $cols = $table | columns
+  [
+    (
+      if 'long-option' in $cols {
+        $"\t--($table.long-option)(if 'short-option' in $cols { $'[-($table.short-option)]' })($table | gen-flags-desc $cols)"
+      } else if 'short-option' in $cols {
+        $"\t-($table.short-option)($table | gen-flags-desc $cols)"
+      }
+    )
+  ] | str join "\n"
 }
 
-# build the list of flag string in nu syntax
-# record<c, n, a, d, o> -> list<string>
-def build-flags [] {
-    $in
-    | each { |subargs|
-        if ('l' in ($subargs | columns)) and ($subargs.l != "") {
-            [
-                "\t--" $subargs.l
-                (
-                  [
-                    (if ('s' in ($subargs | columns)) and ($subargs.s != "") { [ "(-" $subargs.s ")" ] | str join })
-                    (if ('d' in ($subargs | columns)) and ($subargs.d != "") { [ "\t\t\t\t\t# " $subargs.d ] | str join })
-                  ] | str join
-                )
-            ] | str join
-        }
-    }
+def gen-flags-desc [$cols] : any -> string {
+  if 'description' in $cols { $"\t# ($in.description)" }
 }
