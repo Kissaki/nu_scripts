@@ -12,7 +12,7 @@ $themes | get name | each {|x| ^nu --commands $'use theme-svg "to svg"; source (
 # recover original theme - because calling ^nu does not isolate the theme inside the child process - it bleeds into the current terminal session
 $env.config.color_config = $original
 
-let markdownBody = $themes | each {|x| $"## ($x.name)'\n\n![$in.name]\($x.svg)" } | str join "\n\n"
+let markdownBody = $themes | each { $"## ($in.name | path basename)\n\n![($in.name)]\(($in.svg))\n\nActivate with source ($in.name)" } | str join "\n\n"
 $'# Nushell Theme Previews
 
 ($markdownBody)
