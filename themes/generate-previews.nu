@@ -17,3 +17,17 @@ $'# Nushell Theme Previews
 
 ($markdownBody)
 ' | save theme-previews.md --force
+
+let htmlThemesBody = $themes | each { $"
+  <div class=\"theme\">
+    <div class="name">($in.name | path basename)</div>
+    <img src=\"($in.svg)\" alt=\"Preview of ($in.name) Nushell theme\"/>
+    <div class=\"instructions\">Activate with source ($in.name)</div>
+  </div>" } | str join "\n"
+$'<html>
+  <head>
+    <meta charset="utf-8"><title>Nushelle Theme Previews</title>
+    <meta name="viewport" content="width=device-width">
+    <style>.themes { display: flex; flex-wrap: wrap; } .theme { display: grid; }</style>
+  </head><body><div class="themes">($htmlThemesBody)</div></body></html>
+' | save theme-previews.html --force
