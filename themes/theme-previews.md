@@ -1,1809 +1,2713 @@
 # Nushell Theme Previews
 
-## nu-themes/3024-day.nu'
+## 3024-day.nu
 
-![$in.name]($x.svg)
+![nu-themes/3024-day.nu](nu-themes\3024-day.svg)
 
-## nu-themes/3024-night.nu'
+Activate with source nu-themes/3024-day.nu
 
-![$in.name]($x.svg)
+## 3024-night.nu
 
-## nu-themes/3024r.nu'
+![nu-themes/3024-night.nu](nu-themes\3024-night.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/3024-night.nu
 
-## nu-themes/abyss.nu'
+## 3024r.nu
 
-![$in.name]($x.svg)
+![nu-themes/3024r.nu](nu-themes\3024r.svg)
 
-## nu-themes/aci.nu'
+Activate with source nu-themes/3024r.nu
 
-![$in.name]($x.svg)
+## abyss.nu
 
-## nu-themes/aco.nu'
+![nu-themes/abyss.nu](nu-themes\abyss.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/abyss.nu
 
-## nu-themes/adventuretime.nu'
+## aci.nu
 
-![$in.name]($x.svg)
+![nu-themes/aci.nu](nu-themes\aci.svg)
 
-## nu-themes/afterglow.nu'
+Activate with source nu-themes/aci.nu
 
-![$in.name]($x.svg)
+## aco.nu
 
-## nu-themes/alien-blood.nu'
+![nu-themes/aco.nu](nu-themes\aco.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/aco.nu
 
-## nu-themes/alucard.nu'
+## adventuretime.nu
 
-![$in.name]($x.svg)
+![nu-themes/adventuretime.nu](nu-themes\adventuretime.svg)
 
-## nu-themes/amora.nu'
+Activate with source nu-themes/adventuretime.nu
 
-![$in.name]($x.svg)
+## afterglow.nu
 
-## nu-themes/apathy.nu'
+![nu-themes/afterglow.nu](nu-themes\afterglow.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/afterglow.nu
 
-## nu-themes/apprentice.nu'
+## alien-blood.nu
 
-![$in.name]($x.svg)
+![nu-themes/alien-blood.nu](nu-themes\alien-blood.svg)
 
-## nu-themes/argonaut.nu'
+Activate with source nu-themes/alien-blood.nu
 
-![$in.name]($x.svg)
+## alucard.nu
 
-## nu-themes/arthur.nu'
+![nu-themes/alucard.nu](nu-themes\alucard.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/alucard.nu
 
-## nu-themes/ashes.nu'
+## amora.nu
 
-![$in.name]($x.svg)
+![nu-themes/amora.nu](nu-themes\amora.svg)
 
-## nu-themes/atelier-cave-light.nu'
+Activate with source nu-themes/amora.nu
 
-![$in.name]($x.svg)
+## apathy.nu
 
-## nu-themes/atelier-cave.nu'
+![nu-themes/apathy.nu](nu-themes\apathy.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/apathy.nu
 
-## nu-themes/atelier-dune-light.nu'
+## apprentice.nu
 
-![$in.name]($x.svg)
+![nu-themes/apprentice.nu](nu-themes\apprentice.svg)
 
-## nu-themes/atelier-dune.nu'
+Activate with source nu-themes/apprentice.nu
 
-![$in.name]($x.svg)
+## argonaut.nu
 
-## nu-themes/atelier-estuary-light.nu'
+![nu-themes/argonaut.nu](nu-themes\argonaut.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/argonaut.nu
 
-## nu-themes/atelier-estuary.nu'
+## arthur.nu
 
-![$in.name]($x.svg)
+![nu-themes/arthur.nu](nu-themes\arthur.svg)
 
-## nu-themes/atelier-forest-light.nu'
+Activate with source nu-themes/arthur.nu
 
-![$in.name]($x.svg)
+## ashes.nu
 
-## nu-themes/atelier-forest.nu'
+![nu-themes/ashes.nu](nu-themes\ashes.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/ashes.nu
 
-## nu-themes/atelier-heath-light.nu'
+## atelier-cave-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/atelier-cave-light.nu](nu-themes\atelier-cave-light.svg)
 
-## nu-themes/atelier-heath.nu'
+Activate with source nu-themes/atelier-cave-light.nu
 
-![$in.name]($x.svg)
+## atelier-cave.nu
 
-## nu-themes/atelier-lakeside-light.nu'
+![nu-themes/atelier-cave.nu](nu-themes\atelier-cave.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/atelier-cave.nu
 
-## nu-themes/atelier-lakeside.nu'
+## atelier-dune-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/atelier-dune-light.nu](nu-themes\atelier-dune-light.svg)
 
-## nu-themes/atelier-plateau-light.nu'
+Activate with source nu-themes/atelier-dune-light.nu
 
-![$in.name]($x.svg)
+## atelier-dune.nu
 
-## nu-themes/atelier-plateau.nu'
+![nu-themes/atelier-dune.nu](nu-themes\atelier-dune.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/atelier-dune.nu
 
-## nu-themes/atelier-savanna-light.nu'
+## atelier-estuary-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/atelier-estuary-light.nu](nu-themes\atelier-estuary-light.svg)
 
-## nu-themes/atelier-savanna.nu'
+Activate with source nu-themes/atelier-estuary-light.nu
 
-![$in.name]($x.svg)
+## atelier-estuary.nu
 
-## nu-themes/atelier-seaside-light.nu'
+![nu-themes/atelier-estuary.nu](nu-themes\atelier-estuary.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/atelier-estuary.nu
 
-## nu-themes/atelier-seaside.nu'
+## atelier-forest-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/atelier-forest-light.nu](nu-themes\atelier-forest-light.svg)
 
-## nu-themes/atelier-sulphurpool-light.nu'
+Activate with source nu-themes/atelier-forest-light.nu
 
-![$in.name]($x.svg)
+## atelier-forest.nu
 
-## nu-themes/atelier-sulphurpool.nu'
+![nu-themes/atelier-forest.nu](nu-themes\atelier-forest.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/atelier-forest.nu
 
-## nu-themes/atlas.nu'
+## atelier-heath-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/atelier-heath-light.nu](nu-themes\atelier-heath-light.svg)
 
-## nu-themes/atom-one-light.nu'
+Activate with source nu-themes/atelier-heath-light.nu
 
-![$in.name]($x.svg)
+## atelier-heath.nu
 
-## nu-themes/atom.nu'
+![nu-themes/atelier-heath.nu](nu-themes\atelier-heath.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/atelier-heath.nu
 
-## nu-themes/ayu-light.nu'
+## atelier-lakeside-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/atelier-lakeside-light.nu](nu-themes\atelier-lakeside-light.svg)
 
-## nu-themes/ayu-mirage-simple-cursor.nu'
+Activate with source nu-themes/atelier-lakeside-light.nu
 
-![$in.name]($x.svg)
+## atelier-lakeside.nu
 
-## nu-themes/ayu-mirage.nu'
+![nu-themes/atelier-lakeside.nu](nu-themes\atelier-lakeside.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/atelier-lakeside.nu
 
-## nu-themes/ayu.nu'
+## atelier-plateau-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/atelier-plateau-light.nu](nu-themes\atelier-plateau-light.svg)
 
-## nu-themes/azu.nu'
+Activate with source nu-themes/atelier-plateau-light.nu
 
-![$in.name]($x.svg)
+## atelier-plateau.nu
 
-## nu-themes/batman.nu'
+![nu-themes/atelier-plateau.nu](nu-themes\atelier-plateau.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/atelier-plateau.nu
 
-## nu-themes/belafonte-day.nu'
+## atelier-savanna-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/atelier-savanna-light.nu](nu-themes\atelier-savanna-light.svg)
 
-## nu-themes/belafonte-night.nu'
+Activate with source nu-themes/atelier-savanna-light.nu
 
-![$in.name]($x.svg)
+## atelier-savanna.nu
 
-## nu-themes/bespin.nu'
+![nu-themes/atelier-savanna.nu](nu-themes\atelier-savanna.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/atelier-savanna.nu
 
-## nu-themes/bim.nu'
+## atelier-seaside-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/atelier-seaside-light.nu](nu-themes\atelier-seaside-light.svg)
 
-## nu-themes/birds-of-paradise.nu'
+Activate with source nu-themes/atelier-seaside-light.nu
 
-![$in.name]($x.svg)
+## atelier-seaside.nu
 
-## nu-themes/black-metal-bathory.nu'
+![nu-themes/atelier-seaside.nu](nu-themes\atelier-seaside.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/atelier-seaside.nu
 
-## nu-themes/black-metal-burzum.nu'
+## atelier-sulphurpool-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/atelier-sulphurpool-light.nu](nu-themes\atelier-sulphurpool-light.svg)
 
-## nu-themes/black-metal-dark-funeral.nu'
+Activate with source nu-themes/atelier-sulphurpool-light.nu
 
-![$in.name]($x.svg)
+## atelier-sulphurpool.nu
 
-## nu-themes/black-metal-gorgoroth.nu'
+![nu-themes/atelier-sulphurpool.nu](nu-themes\atelier-sulphurpool.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/atelier-sulphurpool.nu
 
-## nu-themes/black-metal-immortal.nu'
+## atlas.nu
 
-![$in.name]($x.svg)
+![nu-themes/atlas.nu](nu-themes\atlas.svg)
 
-## nu-themes/black-metal-khold.nu'
+Activate with source nu-themes/atlas.nu
 
-![$in.name]($x.svg)
+## atom-one-light.nu
 
-## nu-themes/black-metal-marduk.nu'
+![nu-themes/atom-one-light.nu](nu-themes\atom-one-light.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/atom-one-light.nu
 
-## nu-themes/black-metal-mayhem.nu'
+## atom.nu
 
-![$in.name]($x.svg)
+![nu-themes/atom.nu](nu-themes\atom.svg)
 
-## nu-themes/black-metal-nile.nu'
+Activate with source nu-themes/atom.nu
 
-![$in.name]($x.svg)
+## ayu-light.nu
 
-## nu-themes/black-metal-venom.nu'
+![nu-themes/ayu-light.nu](nu-themes\ayu-light.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/ayu-light.nu
 
-## nu-themes/black-metal.nu'
+## ayu-mirage-simple-cursor.nu
 
-![$in.name]($x.svg)
+![nu-themes/ayu-mirage-simple-cursor.nu](nu-themes\ayu-mirage-simple-cursor.svg)
 
-## nu-themes/blazer.nu'
+Activate with source nu-themes/ayu-mirage-simple-cursor.nu
 
-![$in.name]($x.svg)
+## ayu-mirage.nu
 
-## nu-themes/borland.nu'
+![nu-themes/ayu-mirage.nu](nu-themes\ayu-mirage.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/ayu-mirage.nu
 
-## nu-themes/brewer.nu'
+## ayu.nu
 
-![$in.name]($x.svg)
+![nu-themes/ayu.nu](nu-themes\ayu.svg)
 
-## nu-themes/bright-lights.nu'
+Activate with source nu-themes/ayu.nu
 
-![$in.name]($x.svg)
+## azu.nu
 
-## nu-themes/bright.nu'
+![nu-themes/azu.nu](nu-themes\azu.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/azu.nu
 
-## nu-themes/broadcast.nu'
+## batman.nu
 
-![$in.name]($x.svg)
+![nu-themes/batman.nu](nu-themes\batman.svg)
 
-## nu-themes/brogrammer.nu'
+Activate with source nu-themes/batman.nu
 
-![$in.name]($x.svg)
+## belafonte-day.nu
 
-## nu-themes/brushtrees-dark.nu'
+![nu-themes/belafonte-day.nu](nu-themes\belafonte-day.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/belafonte-day.nu
 
-## nu-themes/brushtrees.nu'
+## belafonte-night.nu
 
-![$in.name]($x.svg)
+![nu-themes/belafonte-night.nu](nu-themes\belafonte-night.svg)
 
-## nu-themes/c64.nu'
+Activate with source nu-themes/belafonte-night.nu
 
-![$in.name]($x.svg)
+## bespin.nu
 
-## nu-themes/cai.nu'
+![nu-themes/bespin.nu](nu-themes\bespin.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/bespin.nu
 
-## nu-themes/catppuccin-latte.nu'
+## bim.nu
 
-![$in.name]($x.svg)
+![nu-themes/bim.nu](nu-themes\bim.svg)
 
-## nu-themes/catppuccin-macchiato.nu'
+Activate with source nu-themes/bim.nu
 
-![$in.name]($x.svg)
+## birds-of-paradise.nu
 
-## nu-themes/catppuccin-mocha.nu'
+![nu-themes/birds-of-paradise.nu](nu-themes\birds-of-paradise.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/birds-of-paradise.nu
 
-## nu-themes/chalk.nu'
+## black-metal-bathory.nu
 
-![$in.name]($x.svg)
+![nu-themes/black-metal-bathory.nu](nu-themes\black-metal-bathory.svg)
 
-## nu-themes/chalkboard.nu'
+Activate with source nu-themes/black-metal-bathory.nu
 
-![$in.name]($x.svg)
+## black-metal-burzum.nu
 
-## nu-themes/challenger-deep.nu'
+![nu-themes/black-metal-burzum.nu](nu-themes\black-metal-burzum.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/black-metal-burzum.nu
 
-## nu-themes/ciapre.nu'
+## black-metal-dark-funeral.nu
 
-![$in.name]($x.svg)
+![nu-themes/black-metal-dark-funeral.nu](nu-themes\black-metal-dark-funeral.svg)
 
-## nu-themes/circus.nu'
+Activate with source nu-themes/black-metal-dark-funeral.nu
 
-![$in.name]($x.svg)
+## black-metal-gorgoroth.nu
 
-## nu-themes/classic-dark.nu'
+![nu-themes/black-metal-gorgoroth.nu](nu-themes\black-metal-gorgoroth.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/black-metal-gorgoroth.nu
 
-## nu-themes/classic-light.nu'
+## black-metal-immortal.nu
 
-![$in.name]($x.svg)
+![nu-themes/black-metal-immortal.nu](nu-themes\black-metal-immortal.svg)
 
-## nu-themes/clone-of-ubuntu.nu'
+Activate with source nu-themes/black-metal-immortal.nu
 
-![$in.name]($x.svg)
+## black-metal-khold.nu
 
-## nu-themes/clrs.nu'
+![nu-themes/black-metal-khold.nu](nu-themes\black-metal-khold.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/black-metal-khold.nu
 
-## nu-themes/cobalt-neon.nu'
+## black-metal-marduk.nu
 
-![$in.name]($x.svg)
+![nu-themes/black-metal-marduk.nu](nu-themes\black-metal-marduk.svg)
 
-## nu-themes/cobalt2.nu'
+Activate with source nu-themes/black-metal-marduk.nu
 
-![$in.name]($x.svg)
+## black-metal-mayhem.nu
 
-## nu-themes/codeschool.nu'
+![nu-themes/black-metal-mayhem.nu](nu-themes\black-metal-mayhem.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/black-metal-mayhem.nu
 
-## nu-themes/corvine.nu'
+## black-metal-nile.nu
 
-![$in.name]($x.svg)
+![nu-themes/black-metal-nile.nu](nu-themes\black-metal-nile.svg)
 
-## nu-themes/crayon-pony-fish.nu'
+Activate with source nu-themes/black-metal-nile.nu
 
-![$in.name]($x.svg)
+## black-metal-venom.nu
 
-## nu-themes/cupcake.nu'
+![nu-themes/black-metal-venom.nu](nu-themes\black-metal-venom.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/black-metal-venom.nu
 
-## nu-themes/cupertino.nu'
+## black-metal.nu
 
-![$in.name]($x.svg)
+![nu-themes/black-metal.nu](nu-themes\black-metal.svg)
 
-## nu-themes/danqing.nu'
+Activate with source nu-themes/black-metal.nu
 
-![$in.name]($x.svg)
+## blazer.nu
 
-## nu-themes/darcula.nu'
+![nu-themes/blazer.nu](nu-themes\blazer.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/blazer.nu
 
-## nu-themes/dark-pastel.nu'
+## borland.nu
 
-![$in.name]($x.svg)
+![nu-themes/borland.nu](nu-themes\borland.svg)
 
-## nu-themes/darkmoss.nu'
+Activate with source nu-themes/borland.nu
 
-![$in.name]($x.svg)
+## brewer.nu
 
-## nu-themes/darkside.nu'
+![nu-themes/brewer.nu](nu-themes\brewer.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/brewer.nu
 
-## nu-themes/darktooth.nu'
+## bright-lights.nu
 
-![$in.name]($x.svg)
+![nu-themes/bright-lights.nu](nu-themes\bright-lights.svg)
 
-## nu-themes/darkviolet.nu'
+Activate with source nu-themes/bright-lights.nu
 
-![$in.name]($x.svg)
+## bright.nu
 
-## nu-themes/decaf.nu'
+![nu-themes/bright.nu](nu-themes\bright.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/bright.nu
 
-## nu-themes/default-dark.nu'
+## broadcast.nu
 
-![$in.name]($x.svg)
+![nu-themes/broadcast.nu](nu-themes\broadcast.svg)
 
-## nu-themes/default-light.nu'
+Activate with source nu-themes/broadcast.nu
 
-![$in.name]($x.svg)
+## brogrammer.nu
 
-## nu-themes/desert-night.nu'
+![nu-themes/brogrammer.nu](nu-themes\brogrammer.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/brogrammer.nu
 
-## nu-themes/desert.nu'
+## brushtrees-dark.nu
 
-![$in.name]($x.svg)
+![nu-themes/brushtrees-dark.nu](nu-themes\brushtrees-dark.svg)
 
-## nu-themes/dimmed-monokai.nu'
+Activate with source nu-themes/brushtrees-dark.nu
 
-![$in.name]($x.svg)
+## brushtrees.nu
 
-## nu-themes/dirtysea.nu'
+![nu-themes/brushtrees.nu](nu-themes\brushtrees.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/brushtrees.nu
 
-## nu-themes/dot-gov.nu'
+## c64.nu
 
-![$in.name]($x.svg)
+![nu-themes/c64.nu](nu-themes\c64.svg)
 
-## nu-themes/dracula.nu'
+Activate with source nu-themes/c64.nu
 
-![$in.name]($x.svg)
+## cai.nu
 
-## nu-themes/dumbledore.nu'
+![nu-themes/cai.nu](nu-themes\cai.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/cai.nu
 
-## nu-themes/duotone-dark.nu'
+## catppuccin-latte.nu
 
-![$in.name]($x.svg)
+![nu-themes/catppuccin-latte.nu](nu-themes\catppuccin-latte.svg)
 
-## nu-themes/e-n-c-o-m.nu'
+Activate with source nu-themes/catppuccin-latte.nu
 
-![$in.name]($x.svg)
+## catppuccin-macchiato.nu
 
-## nu-themes/earthsong.nu'
+![nu-themes/catppuccin-macchiato.nu](nu-themes\catppuccin-macchiato.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/catppuccin-macchiato.nu
 
-## nu-themes/edge-dark.nu'
+## catppuccin-mocha.nu
 
-![$in.name]($x.svg)
+![nu-themes/catppuccin-mocha.nu](nu-themes\catppuccin-mocha.svg)
 
-## nu-themes/edge-light.nu'
+Activate with source nu-themes/catppuccin-mocha.nu
 
-![$in.name]($x.svg)
+## chalk.nu
 
-## nu-themes/eighties.nu'
+![nu-themes/chalk.nu](nu-themes\chalk.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/chalk.nu
 
-## nu-themes/elemental.nu'
+## chalkboard.nu
 
-![$in.name]($x.svg)
+![nu-themes/chalkboard.nu](nu-themes\chalkboard.svg)
 
-## nu-themes/elementary.nu'
+Activate with source nu-themes/chalkboard.nu
 
-![$in.name]($x.svg)
+## challenger-deep.nu
 
-## nu-themes/elic.nu'
+![nu-themes/challenger-deep.nu](nu-themes\challenger-deep.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/challenger-deep.nu
 
-## nu-themes/elio.nu'
+## ciapre.nu
 
-![$in.name]($x.svg)
+![nu-themes/ciapre.nu](nu-themes\ciapre.svg)
 
-## nu-themes/embark.nu'
+Activate with source nu-themes/ciapre.nu
 
-![$in.name]($x.svg)
+## circus.nu
 
-## nu-themes/embers.nu'
+![nu-themes/circus.nu](nu-themes\circus.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/circus.nu
 
-## nu-themes/equilibrium-dark.nu'
+## classic-dark.nu
 
-![$in.name]($x.svg)
+![nu-themes/classic-dark.nu](nu-themes\classic-dark.svg)
 
-## nu-themes/equilibrium-gray-dark.nu'
+Activate with source nu-themes/classic-dark.nu
 
-![$in.name]($x.svg)
+## classic-light.nu
 
-## nu-themes/equilibrium-gray-light.nu'
+![nu-themes/classic-light.nu](nu-themes\classic-light.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/classic-light.nu
 
-## nu-themes/equilibrium-light.nu'
+## clone-of-ubuntu.nu
 
-![$in.name]($x.svg)
+![nu-themes/clone-of-ubuntu.nu](nu-themes\clone-of-ubuntu.svg)
 
-## nu-themes/espresso-libre.nu'
+Activate with source nu-themes/clone-of-ubuntu.nu
 
-![$in.name]($x.svg)
+## clrs.nu
 
-## nu-themes/espresso.nu'
+![nu-themes/clrs.nu](nu-themes\clrs.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/clrs.nu
 
-## nu-themes/eva-dim.nu'
+## cobalt-neon.nu
 
-![$in.name]($x.svg)
+![nu-themes/cobalt-neon.nu](nu-themes\cobalt-neon.svg)
 
-## nu-themes/eva.nu'
+Activate with source nu-themes/cobalt-neon.nu
 
-![$in.name]($x.svg)
+## cobalt2.nu
 
-## nu-themes/everforest-light.nu'
+![nu-themes/cobalt2.nu](nu-themes\cobalt2.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/cobalt2.nu
 
-## nu-themes/everforest.nu'
+## codeschool.nu
 
-![$in.name]($x.svg)
+![nu-themes/codeschool.nu](nu-themes\codeschool.svg)
 
-## nu-themes/falcon.nu'
+Activate with source nu-themes/codeschool.nu
 
-![$in.name]($x.svg)
+## corvine.nu
 
-## nu-themes/farin.nu'
+![nu-themes/corvine.nu](nu-themes\corvine.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/corvine.nu
 
-## nu-themes/ffive.nu'
+## crayon-pony-fish.nu
 
-![$in.name]($x.svg)
+![nu-themes/crayon-pony-fish.nu](nu-themes\crayon-pony-fish.svg)
 
-## nu-themes/fideloper.nu'
+Activate with source nu-themes/crayon-pony-fish.nu
 
-![$in.name]($x.svg)
+## cupcake.nu
 
-## nu-themes/fishtank.nu'
+![nu-themes/cupcake.nu](nu-themes\cupcake.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/cupcake.nu
 
-## nu-themes/flat.nu'
+## cupertino.nu
 
-![$in.name]($x.svg)
+![nu-themes/cupertino.nu](nu-themes\cupertino.svg)
 
-## nu-themes/flatland.nu'
+Activate with source nu-themes/cupertino.nu
 
-![$in.name]($x.svg)
+## danqing.nu
 
-## nu-themes/floraverse.nu'
+![nu-themes/danqing.nu](nu-themes\danqing.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/danqing.nu
 
-## nu-themes/forest-night.nu'
+## darcula.nu
 
-![$in.name]($x.svg)
+![nu-themes/darcula.nu](nu-themes\darcula.svg)
 
-## nu-themes/foxnightly.nu'
+Activate with source nu-themes/darcula.nu
 
-![$in.name]($x.svg)
+## dark-pastel.nu
 
-## nu-themes/framer.nu'
+![nu-themes/dark-pastel.nu](nu-themes\dark-pastel.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/dark-pastel.nu
 
-## nu-themes/freya.nu'
+## darkmoss.nu
 
-![$in.name]($x.svg)
+![nu-themes/darkmoss.nu](nu-themes\darkmoss.svg)
 
-## nu-themes/frontend-delight.nu'
+Activate with source nu-themes/darkmoss.nu
 
-![$in.name]($x.svg)
+## darkside.nu
 
-## nu-themes/frontend-fun-forrest.nu'
+![nu-themes/darkside.nu](nu-themes\darkside.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/darkside.nu
 
-## nu-themes/frontend-galaxy.nu'
+## darktooth.nu
 
-![$in.name]($x.svg)
+![nu-themes/darktooth.nu](nu-themes\darktooth.svg)
 
-## nu-themes/fruit-soda.nu'
+Activate with source nu-themes/darktooth.nu
 
-![$in.name]($x.svg)
+## darkviolet.nu
 
-## nu-themes/gigavolt.nu'
+![nu-themes/darkviolet.nu](nu-themes\darkviolet.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/darkviolet.nu
 
-## nu-themes/github-dark-colorblind.nu'
+## decaf.nu
 
-![$in.name]($x.svg)
+![nu-themes/decaf.nu](nu-themes\decaf.svg)
 
-## nu-themes/github-dark-default.nu'
+Activate with source nu-themes/decaf.nu
 
-![$in.name]($x.svg)
+## default-dark.nu
 
-## nu-themes/github-dark.nu'
+![nu-themes/default-dark.nu](nu-themes\default-dark.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/default-dark.nu
 
-## nu-themes/github-dimmed.nu'
+## default-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/default-light.nu](nu-themes\default-light.svg)
 
-## nu-themes/github-light-colorblind.nu'
+Activate with source nu-themes/default-light.nu
 
-![$in.name]($x.svg)
+## desert-night.nu
 
-## nu-themes/github-light-default.nu'
+![nu-themes/desert-night.nu](nu-themes\desert-night.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/desert-night.nu
 
-## nu-themes/github-light.nu'
+## desert.nu
 
-![$in.name]($x.svg)
+![nu-themes/desert.nu](nu-themes\desert.svg)
 
-## nu-themes/github.nu'
+Activate with source nu-themes/desert.nu
 
-![$in.name]($x.svg)
+## dimmed-monokai.nu
 
-## nu-themes/glacier.nu'
+![nu-themes/dimmed-monokai.nu](nu-themes\dimmed-monokai.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/dimmed-monokai.nu
 
-## nu-themes/goa-base.nu'
+## dirtysea.nu
 
-![$in.name]($x.svg)
+![nu-themes/dirtysea.nu](nu-themes\dirtysea.svg)
 
-## nu-themes/gooey.nu'
+Activate with source nu-themes/dirtysea.nu
 
-![$in.name]($x.svg)
+## dot-gov.nu
 
-## nu-themes/google-dark.nu'
+![nu-themes/dot-gov.nu](nu-themes\dot-gov.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/dot-gov.nu
 
-## nu-themes/google-light.nu'
+## dracula.nu
 
-![$in.name]($x.svg)
+![nu-themes/dracula.nu](nu-themes\dracula.svg)
 
-## nu-themes/grape.nu'
+Activate with source nu-themes/dracula.nu
 
-![$in.name]($x.svg)
+## dumbledore.nu
 
-## nu-themes/grass.nu'
+![nu-themes/dumbledore.nu](nu-themes\dumbledore.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/dumbledore.nu
 
-## nu-themes/grayscale-dark.nu'
+## duotone-dark.nu
 
-![$in.name]($x.svg)
+![nu-themes/duotone-dark.nu](nu-themes\duotone-dark.svg)
 
-## nu-themes/grayscale-light.nu'
+Activate with source nu-themes/duotone-dark.nu
 
-![$in.name]($x.svg)
+## e-n-c-o-m.nu
 
-## nu-themes/green-screen.nu'
+![nu-themes/e-n-c-o-m.nu](nu-themes\e-n-c-o-m.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/e-n-c-o-m.nu
 
-## nu-themes/greenscreen.nu'
+## earthsong.nu
 
-![$in.name]($x.svg)
+![nu-themes/earthsong.nu](nu-themes\earthsong.svg)
 
-## nu-themes/gruvbit.nu'
+Activate with source nu-themes/earthsong.nu
 
-![$in.name]($x.svg)
+## edge-dark.nu
 
-## nu-themes/gruvbox-dark-hard.nu'
+![nu-themes/edge-dark.nu](nu-themes\edge-dark.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/edge-dark.nu
 
-## nu-themes/gruvbox-dark-medium.nu'
+## edge-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/edge-light.nu](nu-themes\edge-light.svg)
 
-## nu-themes/gruvbox-dark-pale.nu'
+Activate with source nu-themes/edge-light.nu
 
-![$in.name]($x.svg)
+## eighties.nu
 
-## nu-themes/gruvbox-dark-soft.nu'
+![nu-themes/eighties.nu](nu-themes\eighties.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/eighties.nu
 
-## nu-themes/gruvbox-dark.nu'
+## elemental.nu
 
-![$in.name]($x.svg)
+![nu-themes/elemental.nu](nu-themes\elemental.svg)
 
-## nu-themes/gruvbox-light-hard.nu'
+Activate with source nu-themes/elemental.nu
 
-![$in.name]($x.svg)
+## elementary.nu
 
-## nu-themes/gruvbox-light-medium.nu'
+![nu-themes/elementary.nu](nu-themes\elementary.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/elementary.nu
 
-## nu-themes/gruvbox-light-soft.nu'
+## elic.nu
 
-![$in.name]($x.svg)
+![nu-themes/elic.nu](nu-themes\elic.svg)
 
-## nu-themes/gruvbox-material-dark-hard.nu'
+Activate with source nu-themes/elic.nu
 
-![$in.name]($x.svg)
+## elio.nu
 
-## nu-themes/gruvbox-material-dark-medium.nu'
+![nu-themes/elio.nu](nu-themes\elio.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/elio.nu
 
-## nu-themes/gruvbox-material-dark-soft.nu'
+## embark.nu
 
-![$in.name]($x.svg)
+![nu-themes/embark.nu](nu-themes\embark.svg)
 
-## nu-themes/gruvbox-material-light-hard.nu'
+Activate with source nu-themes/embark.nu
 
-![$in.name]($x.svg)
+## embers.nu
 
-## nu-themes/gruvbox-material-light-medium.nu'
+![nu-themes/embers.nu](nu-themes\embers.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/embers.nu
 
-## nu-themes/gruvbox-material-light-soft.nu'
+## equilibrium-dark.nu
 
-![$in.name]($x.svg)
+![nu-themes/equilibrium-dark.nu](nu-themes\equilibrium-dark.svg)
 
-## nu-themes/gruvbox-mix-dark-hard.nu'
+Activate with source nu-themes/equilibrium-dark.nu
 
-![$in.name]($x.svg)
+## equilibrium-gray-dark.nu
 
-## nu-themes/gruvbox-mix-dark-medium.nu'
+![nu-themes/equilibrium-gray-dark.nu](nu-themes\equilibrium-gray-dark.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/equilibrium-gray-dark.nu
 
-## nu-themes/gruvbox-mix-dark-soft.nu'
+## equilibrium-gray-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/equilibrium-gray-light.nu](nu-themes\equilibrium-gray-light.svg)
 
-## nu-themes/gruvbox-mix-light-hard.nu'
+Activate with source nu-themes/equilibrium-gray-light.nu
 
-![$in.name]($x.svg)
+## equilibrium-light.nu
 
-## nu-themes/gruvbox-mix-light-medium.nu'
+![nu-themes/equilibrium-light.nu](nu-themes\equilibrium-light.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/equilibrium-light.nu
 
-## nu-themes/gruvbox-mix-light-soft.nu'
+## espresso-libre.nu
 
-![$in.name]($x.svg)
+![nu-themes/espresso-libre.nu](nu-themes\espresso-libre.svg)
 
-## nu-themes/gruvbox-original-dark-hard.nu'
+Activate with source nu-themes/espresso-libre.nu
 
-![$in.name]($x.svg)
+## espresso.nu
 
-## nu-themes/gruvbox-original-dark-medium.nu'
+![nu-themes/espresso.nu](nu-themes\espresso.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/espresso.nu
 
-## nu-themes/gruvbox-original-dark-soft.nu'
+## eva-dim.nu
 
-![$in.name]($x.svg)
+![nu-themes/eva-dim.nu](nu-themes\eva-dim.svg)
 
-## nu-themes/gruvbox-original-light-hard.nu'
+Activate with source nu-themes/eva-dim.nu
 
-![$in.name]($x.svg)
+## eva.nu
 
-## nu-themes/gruvbox-original-light-medium.nu'
+![nu-themes/eva.nu](nu-themes\eva.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/eva.nu
 
-## nu-themes/gruvbox-original-light-soft.nu'
+## everforest-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/everforest-light.nu](nu-themes\everforest-light.svg)
 
-## nu-themes/gruvbox.nu'
+Activate with source nu-themes/everforest-light.nu
 
-![$in.name]($x.svg)
+## everforest.nu
 
-## nu-themes/hardcore.nu'
+![nu-themes/everforest.nu](nu-themes\everforest.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/everforest.nu
 
-## nu-themes/harmonic-dark.nu'
+## falcon.nu
 
-![$in.name]($x.svg)
+![nu-themes/falcon.nu](nu-themes\falcon.svg)
 
-## nu-themes/harmonic-light.nu'
+Activate with source nu-themes/falcon.nu
 
-![$in.name]($x.svg)
+## farin.nu
 
-## nu-themes/harmonic16-dark.nu'
+![nu-themes/farin.nu](nu-themes\farin.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/farin.nu
 
-## nu-themes/harmonic16-light.nu'
+## ffive.nu
 
-![$in.name]($x.svg)
+![nu-themes/ffive.nu](nu-themes\ffive.svg)
 
-## nu-themes/harper.nu'
+Activate with source nu-themes/ffive.nu
 
-![$in.name]($x.svg)
+## fideloper.nu
 
-## nu-themes/heetch-light.nu'
+![nu-themes/fideloper.nu](nu-themes\fideloper.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/fideloper.nu
 
-## nu-themes/heetch.nu'
+## fishtank.nu
 
-![$in.name]($x.svg)
+![nu-themes/fishtank.nu](nu-themes\fishtank.svg)
 
-## nu-themes/helios.nu'
+Activate with source nu-themes/fishtank.nu
 
-![$in.name]($x.svg)
+## flat.nu
 
-## nu-themes/hemisu-dark.nu'
+![nu-themes/flat.nu](nu-themes\flat.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/flat.nu
 
-## nu-themes/hemisu-light.nu'
+## flatland.nu
 
-![$in.name]($x.svg)
+![nu-themes/flatland.nu](nu-themes\flatland.svg)
 
-## nu-themes/highway.nu'
+Activate with source nu-themes/flatland.nu
 
-![$in.name]($x.svg)
+## floraverse.nu
 
-## nu-themes/hipster-green.nu'
+![nu-themes/floraverse.nu](nu-themes\floraverse.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/floraverse.nu
 
-## nu-themes/homebrew.nu'
+## forest-night.nu
 
-![$in.name]($x.svg)
+![nu-themes/forest-night.nu](nu-themes\forest-night.svg)
 
-## nu-themes/hopscotch.nu'
+Activate with source nu-themes/forest-night.nu
 
-![$in.name]($x.svg)
+## foxnightly.nu
 
-## nu-themes/horizon-dark.nu'
+![nu-themes/foxnightly.nu](nu-themes\foxnightly.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/foxnightly.nu
 
-## nu-themes/horizon-light.nu'
+## framer.nu
 
-![$in.name]($x.svg)
+![nu-themes/framer.nu](nu-themes\framer.svg)
 
-## nu-themes/horizon-terminal-dark.nu'
+Activate with source nu-themes/framer.nu
 
-![$in.name]($x.svg)
+## freya.nu
 
-## nu-themes/horizon-terminal-light.nu'
+![nu-themes/freya.nu](nu-themes\freya.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/freya.nu
 
-## nu-themes/humanoid-dark.nu'
+## frontend-delight.nu
 
-![$in.name]($x.svg)
+![nu-themes/frontend-delight.nu](nu-themes\frontend-delight.svg)
 
-## nu-themes/humanoid-light.nu'
+Activate with source nu-themes/frontend-delight.nu
 
-![$in.name]($x.svg)
+## frontend-fun-forrest.nu
 
-## nu-themes/hurtado.nu'
+![nu-themes/frontend-fun-forrest.nu](nu-themes\frontend-fun-forrest.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/frontend-fun-forrest.nu
 
-## nu-themes/hybrid.nu'
+## frontend-galaxy.nu
 
-![$in.name]($x.svg)
+![nu-themes/frontend-galaxy.nu](nu-themes\frontend-galaxy.svg)
 
-## nu-themes/ia-dark.nu'
+Activate with source nu-themes/frontend-galaxy.nu
 
-![$in.name]($x.svg)
+## fruit-soda.nu
 
-## nu-themes/ia-light.nu'
+![nu-themes/fruit-soda.nu](nu-themes\fruit-soda.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/fruit-soda.nu
 
-## nu-themes/ibm3270.nu'
+## gigavolt.nu
 
-![$in.name]($x.svg)
+![nu-themes/gigavolt.nu](nu-themes\gigavolt.svg)
 
-## nu-themes/ic-green-ppl.nu'
+Activate with source nu-themes/gigavolt.nu
 
-![$in.name]($x.svg)
+## github-dark-colorblind.nu
 
-## nu-themes/ic-orange-ppl.nu'
+![nu-themes/github-dark-colorblind.nu](nu-themes\github-dark-colorblind.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/github-dark-colorblind.nu
 
-## nu-themes/iceberg-light.nu'
+## github-dark-default.nu
 
-![$in.name]($x.svg)
+![nu-themes/github-dark-default.nu](nu-themes\github-dark-default.svg)
 
-## nu-themes/icy.nu'
+Activate with source nu-themes/github-dark-default.nu
 
-![$in.name]($x.svg)
+## github-dark.nu
 
-## nu-themes/idle-toes.nu'
+![nu-themes/github-dark.nu](nu-themes\github-dark.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/github-dark.nu
 
-## nu-themes/idm_3b.nu'
+## github-dimmed.nu
 
-![$in.name]($x.svg)
+![nu-themes/github-dimmed.nu](nu-themes\github-dimmed.svg)
 
-## nu-themes/ir-black.nu'
+Activate with source nu-themes/github-dimmed.nu
 
-![$in.name]($x.svg)
+## github-light-colorblind.nu
 
-## nu-themes/irblack.nu'
+![nu-themes/github-light-colorblind.nu](nu-themes\github-light-colorblind.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/github-light-colorblind.nu
 
-## nu-themes/isotope.nu'
+## github-light-default.nu
 
-![$in.name]($x.svg)
+![nu-themes/github-light-default.nu](nu-themes\github-light-default.svg)
 
-## nu-themes/jackie-brown.nu'
+Activate with source nu-themes/github-light-default.nu
 
-![$in.name]($x.svg)
+## github-light.nu
 
-## nu-themes/japanesque.nu'
+![nu-themes/github-light.nu](nu-themes\github-light.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/github-light.nu
 
-## nu-themes/jellybeans.nu'
+## github.nu
 
-![$in.name]($x.svg)
+![nu-themes/github.nu](nu-themes\github.svg)
 
-## nu-themes/jet-brains-darcula.nu'
+Activate with source nu-themes/github.nu
 
-![$in.name]($x.svg)
+## glacier.nu
 
-## nu-themes/jup.nu'
+![nu-themes/glacier.nu](nu-themes\glacier.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/glacier.nu
 
-## nu-themes/kibble.nu'
+## goa-base.nu
 
-![$in.name]($x.svg)
+![nu-themes/goa-base.nu](nu-themes\goa-base.svg)
 
-## nu-themes/kimber.nu'
+Activate with source nu-themes/goa-base.nu
 
-![$in.name]($x.svg)
+## gooey.nu
 
-## nu-themes/later-this-evening.nu'
+![nu-themes/gooey.nu](nu-themes\gooey.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/gooey.nu
 
-## nu-themes/lavandula.nu'
+## google-dark.nu
 
-![$in.name]($x.svg)
+![nu-themes/google-dark.nu](nu-themes\google-dark.svg)
 
-## nu-themes/liquid-carbon-transparent.nu'
+Activate with source nu-themes/google-dark.nu
 
-![$in.name]($x.svg)
+## google-light.nu
 
-## nu-themes/liquid-carbon.nu'
+![nu-themes/google-light.nu](nu-themes\google-light.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/google-light.nu
 
-## nu-themes/london-tube.nu'
+## grape.nu
 
-![$in.name]($x.svg)
+![nu-themes/grape.nu](nu-themes\grape.svg)
 
-## nu-themes/macintosh.nu'
+Activate with source nu-themes/grape.nu
 
-![$in.name]($x.svg)
+## grass.nu
 
-## nu-themes/maia.nu'
+![nu-themes/grass.nu](nu-themes\grass.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/grass.nu
 
-## nu-themes/man-page.nu'
+## grayscale-dark.nu
 
-![$in.name]($x.svg)
+![nu-themes/grayscale-dark.nu](nu-themes\grayscale-dark.svg)
 
-## nu-themes/mar.nu'
+Activate with source nu-themes/grayscale-dark.nu
 
-![$in.name]($x.svg)
+## grayscale-light.nu
 
-## nu-themes/marrakesh.nu'
+![nu-themes/grayscale-light.nu](nu-themes\grayscale-light.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/grayscale-light.nu
 
-## nu-themes/materia.nu'
+## green-screen.nu
 
-![$in.name]($x.svg)
+![nu-themes/green-screen.nu](nu-themes\green-screen.svg)
 
-## nu-themes/material-dark.nu'
+Activate with source nu-themes/green-screen.nu
 
-![$in.name]($x.svg)
+## greenscreen.nu
 
-## nu-themes/material-darker.nu'
+![nu-themes/greenscreen.nu](nu-themes\greenscreen.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/greenscreen.nu
 
-## nu-themes/material-lighter.nu'
+## gruvbit.nu
 
-![$in.name]($x.svg)
+![nu-themes/gruvbit.nu](nu-themes\gruvbit.svg)
 
-## nu-themes/material-palenight.nu'
+Activate with source nu-themes/gruvbit.nu
 
-![$in.name]($x.svg)
+## gruvbox-dark-hard.nu
 
-## nu-themes/material-vivid.nu'
+![nu-themes/gruvbox-dark-hard.nu](nu-themes\gruvbox-dark-hard.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/gruvbox-dark-hard.nu
 
-## nu-themes/material.nu'
+## gruvbox-dark-medium.nu
 
-![$in.name]($x.svg)
+![nu-themes/gruvbox-dark-medium.nu](nu-themes\gruvbox-dark-medium.svg)
 
-## nu-themes/mathias.nu'
+Activate with source nu-themes/gruvbox-dark-medium.nu
 
-![$in.name]($x.svg)
+## gruvbox-dark-pale.nu
 
-## nu-themes/medallion.nu'
+![nu-themes/gruvbox-dark-pale.nu](nu-themes\gruvbox-dark-pale.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/gruvbox-dark-pale.nu
 
-## nu-themes/mellow-purple.nu'
+## gruvbox-dark-soft.nu
 
-![$in.name]($x.svg)
+![nu-themes/gruvbox-dark-soft.nu](nu-themes\gruvbox-dark-soft.svg)
 
-## nu-themes/mexico-light.nu'
+Activate with source nu-themes/gruvbox-dark-soft.nu
 
-![$in.name]($x.svg)
+## gruvbox-dark.nu
 
-## nu-themes/miramare.nu'
+![nu-themes/gruvbox-dark.nu](nu-themes\gruvbox-dark.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/gruvbox-dark.nu
 
-## nu-themes/misterioso.nu'
+## gruvbox-light-hard.nu
 
-![$in.name]($x.svg)
+![nu-themes/gruvbox-light-hard.nu](nu-themes\gruvbox-light-hard.svg)
 
-## nu-themes/miu.nu'
+Activate with source nu-themes/gruvbox-light-hard.nu
 
-![$in.name]($x.svg)
+## gruvbox-light-medium.nu
 
-## nu-themes/mocha.nu'
+![nu-themes/gruvbox-light-medium.nu](nu-themes\gruvbox-light-medium.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/gruvbox-light-medium.nu
 
-## nu-themes/molokai.nu'
+## gruvbox-light-soft.nu
 
-![$in.name]($x.svg)
+![nu-themes/gruvbox-light-soft.nu](nu-themes\gruvbox-light-soft.svg)
 
-## nu-themes/mona-lisa.nu'
+Activate with source nu-themes/gruvbox-light-soft.nu
 
-![$in.name]($x.svg)
+## gruvbox-material-dark-hard.nu
 
-## nu-themes/mono-amber.nu'
+![nu-themes/gruvbox-material-dark-hard.nu](nu-themes\gruvbox-material-dark-hard.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/gruvbox-material-dark-hard.nu
 
-## nu-themes/mono-cyan.nu'
+## gruvbox-material-dark-medium.nu
 
-![$in.name]($x.svg)
+![nu-themes/gruvbox-material-dark-medium.nu](nu-themes\gruvbox-material-dark-medium.svg)
 
-## nu-themes/mono-green.nu'
+Activate with source nu-themes/gruvbox-material-dark-medium.nu
 
-![$in.name]($x.svg)
+## gruvbox-material-dark-soft.nu
 
-## nu-themes/mono-red.nu'
+![nu-themes/gruvbox-material-dark-soft.nu](nu-themes\gruvbox-material-dark-soft.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/gruvbox-material-dark-soft.nu
 
-## nu-themes/mono-white.nu'
+## gruvbox-material-light-hard.nu
 
-![$in.name]($x.svg)
+![nu-themes/gruvbox-material-light-hard.nu](nu-themes\gruvbox-material-light-hard.svg)
 
-## nu-themes/mono-yellow.nu'
+Activate with source nu-themes/gruvbox-material-light-hard.nu
 
-![$in.name]($x.svg)
+## gruvbox-material-light-medium.nu
 
-## nu-themes/monokai-dark.nu'
+![nu-themes/gruvbox-material-light-medium.nu](nu-themes\gruvbox-material-light-medium.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/gruvbox-material-light-medium.nu
 
-## nu-themes/monokai-soda.nu'
+## gruvbox-material-light-soft.nu
 
-![$in.name]($x.svg)
+![nu-themes/gruvbox-material-light-soft.nu](nu-themes\gruvbox-material-light-soft.svg)
 
-## nu-themes/monokai.nu'
+Activate with source nu-themes/gruvbox-material-light-soft.nu
 
-![$in.name]($x.svg)
+## gruvbox-mix-dark-hard.nu
 
-## nu-themes/mountaineer-grey.nu'
+![nu-themes/gruvbox-mix-dark-hard.nu](nu-themes\gruvbox-mix-dark-hard.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/gruvbox-mix-dark-hard.nu
 
-## nu-themes/mountaineer.nu'
+## gruvbox-mix-dark-medium.nu
 
-![$in.name]($x.svg)
+![nu-themes/gruvbox-mix-dark-medium.nu](nu-themes\gruvbox-mix-dark-medium.svg)
 
-## nu-themes/n0tch2k.nu'
+Activate with source nu-themes/gruvbox-mix-dark-medium.nu
 
-![$in.name]($x.svg)
+## gruvbox-mix-dark-soft.nu
 
-## nu-themes/nebula.nu'
+![nu-themes/gruvbox-mix-dark-soft.nu](nu-themes\gruvbox-mix-dark-soft.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/gruvbox-mix-dark-soft.nu
 
-## nu-themes/neon-night.nu'
+## gruvbox-mix-light-hard.nu
 
-![$in.name]($x.svg)
+![nu-themes/gruvbox-mix-light-hard.nu](nu-themes\gruvbox-mix-light-hard.svg)
 
-## nu-themes/neopolitan.nu'
+Activate with source nu-themes/gruvbox-mix-light-hard.nu
 
-![$in.name]($x.svg)
+## gruvbox-mix-light-medium.nu
 
-## nu-themes/nep.nu'
+![nu-themes/gruvbox-mix-light-medium.nu](nu-themes\gruvbox-mix-light-medium.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/gruvbox-mix-light-medium.nu
 
-## nu-themes/neutron.nu'
+## gruvbox-mix-light-soft.nu
 
-![$in.name]($x.svg)
+![nu-themes/gruvbox-mix-light-soft.nu](nu-themes\gruvbox-mix-light-soft.svg)
 
-## nu-themes/nightfly.nu'
+Activate with source nu-themes/gruvbox-mix-light-soft.nu
 
-![$in.name]($x.svg)
+## gruvbox-original-dark-hard.nu
 
-## nu-themes/nightlion-v1.nu'
+![nu-themes/gruvbox-original-dark-hard.nu](nu-themes\gruvbox-original-dark-hard.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/gruvbox-original-dark-hard.nu
 
-## nu-themes/nightlion-v2.nu'
+## gruvbox-original-dark-medium.nu
 
-![$in.name]($x.svg)
+![nu-themes/gruvbox-original-dark-medium.nu](nu-themes\gruvbox-original-dark-medium.svg)
 
-## nu-themes/nighty.nu'
+Activate with source nu-themes/gruvbox-original-dark-medium.nu
 
-![$in.name]($x.svg)
+## gruvbox-original-dark-soft.nu
 
-## nu-themes/nord-alt.nu'
+![nu-themes/gruvbox-original-dark-soft.nu](nu-themes\gruvbox-original-dark-soft.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/gruvbox-original-dark-soft.nu
 
-## nu-themes/nord-light.nu'
+## gruvbox-original-light-hard.nu
 
-![$in.name]($x.svg)
+![nu-themes/gruvbox-original-light-hard.nu](nu-themes\gruvbox-original-light-hard.svg)
 
-## nu-themes/nord.nu'
+Activate with source nu-themes/gruvbox-original-light-hard.nu
 
-![$in.name]($x.svg)
+## gruvbox-original-light-medium.nu
 
-## nu-themes/nova.nu'
+![nu-themes/gruvbox-original-light-medium.nu](nu-themes\gruvbox-original-light-medium.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/gruvbox-original-light-medium.nu
 
-## nu-themes/novel.nu'
+## gruvbox-original-light-soft.nu
 
-![$in.name]($x.svg)
+![nu-themes/gruvbox-original-light-soft.nu](nu-themes\gruvbox-original-light-soft.svg)
 
-## nu-themes/nushell-dark.nu'
+Activate with source nu-themes/gruvbox-original-light-soft.nu
 
-![$in.name]($x.svg)
+## gruvbox.nu
 
-## nu-themes/nushell-light.nu'
+![nu-themes/gruvbox.nu](nu-themes\gruvbox.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/gruvbox.nu
 
-## nu-themes/obsidian.nu'
+## hardcore.nu
 
-![$in.name]($x.svg)
+![nu-themes/hardcore.nu](nu-themes\hardcore.svg)
 
-## nu-themes/ocean-dark.nu'
+Activate with source nu-themes/hardcore.nu
 
-![$in.name]($x.svg)
+## harmonic-dark.nu
 
-## nu-themes/ocean.nu'
+![nu-themes/harmonic-dark.nu](nu-themes\harmonic-dark.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/harmonic-dark.nu
 
-## nu-themes/oceanic-material.nu'
+## harmonic-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/harmonic-light.nu](nu-themes\harmonic-light.svg)
 
-## nu-themes/oceanic-next.nu'
+Activate with source nu-themes/harmonic-light.nu
 
-![$in.name]($x.svg)
+## harmonic16-dark.nu
 
-## nu-themes/oceanicnext.nu'
+![nu-themes/harmonic16-dark.nu](nu-themes\harmonic16-dark.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/harmonic16-dark.nu
 
-## nu-themes/ollie.nu'
+## harmonic16-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/harmonic16-light.nu](nu-themes\harmonic16-light.svg)
 
-## nu-themes/one-dark.nu'
+Activate with source nu-themes/harmonic16-light.nu
 
-![$in.name]($x.svg)
+## harper.nu
 
-## nu-themes/one-half-black.nu'
+![nu-themes/harper.nu](nu-themes\harper.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/harper.nu
 
-## nu-themes/one-half-light.nu'
+## heetch-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/heetch-light.nu](nu-themes\heetch-light.svg)
 
-## nu-themes/one-light.nu'
+Activate with source nu-themes/heetch-light.nu
 
-![$in.name]($x.svg)
+## heetch.nu
 
-## nu-themes/onedark.nu'
+![nu-themes/heetch.nu](nu-themes\heetch.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/heetch.nu
 
-## nu-themes/orbital.nu'
+## helios.nu
 
-![$in.name]($x.svg)
+![nu-themes/helios.nu](nu-themes\helios.svg)
 
-## nu-themes/outrun-dark.nu'
+Activate with source nu-themes/helios.nu
 
-![$in.name]($x.svg)
+## hemisu-dark.nu
 
-## nu-themes/pali.nu'
+![nu-themes/hemisu-dark.nu](nu-themes\hemisu-dark.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/hemisu-dark.nu
 
-## nu-themes/palmtree.nu'
+## hemisu-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/hemisu-light.nu](nu-themes\hemisu-light.svg)
 
-## nu-themes/papercolor-dark.nu'
+Activate with source nu-themes/hemisu-light.nu
 
-![$in.name]($x.svg)
+## highway.nu
 
-## nu-themes/papercolor-light.nu'
+![nu-themes/highway.nu](nu-themes\highway.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/highway.nu
 
-## nu-themes/paraiso-dark.nu'
+## hipster-green.nu
 
-![$in.name]($x.svg)
+![nu-themes/hipster-green.nu](nu-themes\hipster-green.svg)
 
-## nu-themes/paraiso.nu'
+Activate with source nu-themes/hipster-green.nu
 
-![$in.name]($x.svg)
+## homebrew.nu
 
-## nu-themes/pasque.nu'
+![nu-themes/homebrew.nu](nu-themes\homebrew.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/homebrew.nu
 
-## nu-themes/paul-millr.nu'
+## hopscotch.nu
 
-![$in.name]($x.svg)
+![nu-themes/hopscotch.nu](nu-themes\hopscotch.svg)
 
-## nu-themes/pencil-dark.nu'
+Activate with source nu-themes/hopscotch.nu
 
-![$in.name]($x.svg)
+## horizon-dark.nu
 
-## nu-themes/pencil-light.nu'
+![nu-themes/horizon-dark.nu](nu-themes\horizon-dark.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/horizon-dark.nu
 
-## nu-themes/peppermint.nu'
+## horizon-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/horizon-light.nu](nu-themes\horizon-light.svg)
 
-## nu-themes/phd.nu'
+Activate with source nu-themes/horizon-light.nu
 
-![$in.name]($x.svg)
+## horizon-terminal-dark.nu
 
-## nu-themes/piatto-light.nu'
+![nu-themes/horizon-terminal-dark.nu](nu-themes\horizon-terminal-dark.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/horizon-terminal-dark.nu
 
-## nu-themes/pico.nu'
+## horizon-terminal-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/horizon-terminal-light.nu](nu-themes\horizon-terminal-light.svg)
 
-## nu-themes/pnevma.nu'
+Activate with source nu-themes/horizon-terminal-light.nu
 
-![$in.name]($x.svg)
+## humanoid-dark.nu
 
-## nu-themes/pop.nu'
+![nu-themes/humanoid-dark.nu](nu-themes\humanoid-dark.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/humanoid-dark.nu
 
-## nu-themes/porple.nu'
+## humanoid-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/humanoid-light.nu](nu-themes\humanoid-light.svg)
 
-## nu-themes/pro.nu'
+Activate with source nu-themes/humanoid-light.nu
 
-![$in.name]($x.svg)
+## hurtado.nu
 
-## nu-themes/railscasts.nu'
+![nu-themes/hurtado.nu](nu-themes\hurtado.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/hurtado.nu
 
-## nu-themes/rebecca.nu'
+## hybrid.nu
 
-![$in.name]($x.svg)
+![nu-themes/hybrid.nu](nu-themes\hybrid.svg)
 
-## nu-themes/red-alert.nu'
+Activate with source nu-themes/hybrid.nu
 
-![$in.name]($x.svg)
+## ia-dark.nu
 
-## nu-themes/red-sands.nu'
+![nu-themes/ia-dark.nu](nu-themes\ia-dark.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/ia-dark.nu
 
-## nu-themes/relaxed-afterglow.nu'
+## ia-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/ia-light.nu](nu-themes\ia-light.svg)
 
-## nu-themes/renault-style-light.nu'
+Activate with source nu-themes/ia-light.nu
 
-![$in.name]($x.svg)
+## ibm3270.nu
 
-## nu-themes/rippedcasts.nu'
+![nu-themes/ibm3270.nu](nu-themes\ibm3270.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/ibm3270.nu
 
-## nu-themes/rose-pine-dawn.nu'
+## ic-green-ppl.nu
 
-![$in.name]($x.svg)
+![nu-themes/ic-green-ppl.nu](nu-themes\ic-green-ppl.svg)
 
-## nu-themes/rose-pine-moon.nu'
+Activate with source nu-themes/ic-green-ppl.nu
 
-![$in.name]($x.svg)
+## ic-orange-ppl.nu
 
-## nu-themes/rose-pine.nu'
+![nu-themes/ic-orange-ppl.nu](nu-themes\ic-orange-ppl.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/ic-orange-ppl.nu
 
-## nu-themes/royal.nu'
+## iceberg-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/iceberg-light.nu](nu-themes\iceberg-light.svg)
 
-## nu-themes/sagelight.nu'
+Activate with source nu-themes/iceberg-light.nu
 
-![$in.name]($x.svg)
+## icy.nu
 
-## nu-themes/sandcastle.nu'
+![nu-themes/icy.nu](nu-themes\icy.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/icy.nu
 
-## nu-themes/sat.nu'
+## idle-toes.nu
 
-![$in.name]($x.svg)
+![nu-themes/idle-toes.nu](nu-themes\idle-toes.svg)
 
-## nu-themes/sea-shells.nu'
+Activate with source nu-themes/idle-toes.nu
 
-![$in.name]($x.svg)
+## idm_3b.nu
 
-## nu-themes/seafoam-pastel.nu'
+![nu-themes/idm_3b.nu](nu-themes\idm_3b.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/idm_3b.nu
 
-## nu-themes/selenized-black.nu'
+## ir-black.nu
 
-![$in.name]($x.svg)
+![nu-themes/ir-black.nu](nu-themes\ir-black.svg)
 
-## nu-themes/selenized-dark.nu'
+Activate with source nu-themes/ir-black.nu
 
-![$in.name]($x.svg)
+## irblack.nu
 
-## nu-themes/selenized-light.nu'
+![nu-themes/irblack.nu](nu-themes\irblack.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/irblack.nu
 
-## nu-themes/selenized-white.nu'
+## isotope.nu
 
-![$in.name]($x.svg)
+![nu-themes/isotope.nu](nu-themes\isotope.svg)
 
-## nu-themes/seoul256.nu'
+Activate with source nu-themes/isotope.nu
 
-![$in.name]($x.svg)
+## jackie-brown.nu
 
-## nu-themes/seti-ui.nu'
+![nu-themes/jackie-brown.nu](nu-themes\jackie-brown.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/jackie-brown.nu
 
-## nu-themes/seti.nu'
+## japanesque.nu
 
-![$in.name]($x.svg)
+![nu-themes/japanesque.nu](nu-themes\japanesque.svg)
 
-## nu-themes/shaman.nu'
+Activate with source nu-themes/japanesque.nu
 
-![$in.name]($x.svg)
+## jellybeans.nu
 
-## nu-themes/shapeshifter.nu'
+![nu-themes/jellybeans.nu](nu-themes\jellybeans.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/jellybeans.nu
 
-## nu-themes/shel.nu'
+## jet-brains-darcula.nu
 
-![$in.name]($x.svg)
+![nu-themes/jet-brains-darcula.nu](nu-themes\jet-brains-darcula.svg)
 
-## nu-themes/sierra.nu'
+Activate with source nu-themes/jet-brains-darcula.nu
 
-![$in.name]($x.svg)
+## jup.nu
 
-## nu-themes/silk-dark.nu'
+![nu-themes/jup.nu](nu-themes\jup.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/jup.nu
 
-## nu-themes/silk-light.nu'
+## kibble.nu
 
-![$in.name]($x.svg)
+![nu-themes/kibble.nu](nu-themes\kibble.svg)
 
-## nu-themes/slate.nu'
+Activate with source nu-themes/kibble.nu
 
-![$in.name]($x.svg)
+## kimber.nu
 
-## nu-themes/smyck.nu'
+![nu-themes/kimber.nu](nu-themes\kimber.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/kimber.nu
 
-## nu-themes/snazzy.nu'
+## later-this-evening.nu
 
-![$in.name]($x.svg)
+![nu-themes/later-this-evening.nu](nu-themes\later-this-evening.svg)
 
-## nu-themes/snow-dark.nu'
+Activate with source nu-themes/later-this-evening.nu
 
-![$in.name]($x.svg)
+## lavandula.nu
 
-## nu-themes/snow-light.nu'
+![nu-themes/lavandula.nu](nu-themes\lavandula.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/lavandula.nu
 
-## nu-themes/soft-server.nu'
+## liquid-carbon-transparent.nu
 
-![$in.name]($x.svg)
+![nu-themes/liquid-carbon-transparent.nu](nu-themes\liquid-carbon-transparent.svg)
 
-## nu-themes/solar-flare.nu'
+Activate with source nu-themes/liquid-carbon-transparent.nu
 
-![$in.name]($x.svg)
+## liquid-carbon.nu
 
-## nu-themes/solarflare-light.nu'
+![nu-themes/liquid-carbon.nu](nu-themes\liquid-carbon.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/liquid-carbon.nu
 
-## nu-themes/solarflare.nu'
+## london-tube.nu
 
-![$in.name]($x.svg)
+![nu-themes/london-tube.nu](nu-themes\london-tube.svg)
 
-## nu-themes/solarized-darcula.nu'
+Activate with source nu-themes/london-tube.nu
 
-![$in.name]($x.svg)
+## macintosh.nu
 
-## nu-themes/solarized-dark-higher-contrast.nu'
+![nu-themes/macintosh.nu](nu-themes\macintosh.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/macintosh.nu
 
-## nu-themes/solarized-dark.nu'
+## maia.nu
 
-![$in.name]($x.svg)
+![nu-themes/maia.nu](nu-themes\maia.svg)
 
-## nu-themes/solarized-light.nu'
+Activate with source nu-themes/maia.nu
 
-![$in.name]($x.svg)
+## man-page.nu
 
-## nu-themes/source-code-x.nu'
+![nu-themes/man-page.nu](nu-themes\man-page.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/man-page.nu
 
-## nu-themes/sourcerer.nu'
+## mar.nu
 
-![$in.name]($x.svg)
+![nu-themes/mar.nu](nu-themes\mar.svg)
 
-## nu-themes/sourcerer2.nu'
+Activate with source nu-themes/mar.nu
 
-![$in.name]($x.svg)
+## marrakesh.nu
 
-## nu-themes/spaceduck.nu'
+![nu-themes/marrakesh.nu](nu-themes\marrakesh.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/marrakesh.nu
 
-## nu-themes/spacedust.nu'
+## materia.nu
 
-![$in.name]($x.svg)
+![nu-themes/materia.nu](nu-themes\materia.svg)
 
-## nu-themes/spacegray-eighties-dull.nu'
+Activate with source nu-themes/materia.nu
 
-![$in.name]($x.svg)
+## material-dark.nu
 
-## nu-themes/spacegray-eighties.nu'
+![nu-themes/material-dark.nu](nu-themes\material-dark.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/material-dark.nu
 
-## nu-themes/spacegray.nu'
+## material-darker.nu
 
-![$in.name]($x.svg)
+![nu-themes/material-darker.nu](nu-themes\material-darker.svg)
 
-## nu-themes/spacemacs.nu'
+Activate with source nu-themes/material-darker.nu
 
-![$in.name]($x.svg)
+## material-lighter.nu
 
-## nu-themes/spiderman.nu'
+![nu-themes/material-lighter.nu](nu-themes\material-lighter.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/material-lighter.nu
 
-## nu-themes/spring.nu'
+## material-palenight.nu
 
-![$in.name]($x.svg)
+![nu-themes/material-palenight.nu](nu-themes\material-palenight.svg)
 
-## nu-themes/square.nu'
+Activate with source nu-themes/material-palenight.nu
 
-![$in.name]($x.svg)
+## material-vivid.nu
 
-## nu-themes/srcery.nu'
+![nu-themes/material-vivid.nu](nu-themes\material-vivid.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/material-vivid.nu
 
-## nu-themes/substrata.nu'
+## material.nu
 
-![$in.name]($x.svg)
+![nu-themes/material.nu](nu-themes\material.svg)
 
-## nu-themes/summercamp.nu'
+Activate with source nu-themes/material.nu
 
-![$in.name]($x.svg)
+## mathias.nu
 
-## nu-themes/summerfruit-dark.nu'
+![nu-themes/mathias.nu](nu-themes\mathias.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/mathias.nu
 
-## nu-themes/summerfruit-light.nu'
+## medallion.nu
 
-![$in.name]($x.svg)
+![nu-themes/medallion.nu](nu-themes\medallion.svg)
 
-## nu-themes/sundried.nu'
+Activate with source nu-themes/medallion.nu
 
-![$in.name]($x.svg)
+## mellow-purple.nu
 
-## nu-themes/symphonic.nu'
+![nu-themes/mellow-purple.nu](nu-themes\mellow-purple.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/mellow-purple.nu
 
-## nu-themes/synth-midnight-dark.nu'
+## mexico-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/mexico-light.nu](nu-themes\mexico-light.svg)
 
-## nu-themes/synth-midnight-light.nu'
+Activate with source nu-themes/mexico-light.nu
 
-![$in.name]($x.svg)
+## miramare.nu
 
-## nu-themes/tango-dark.nu'
+![nu-themes/miramare.nu](nu-themes\miramare.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/miramare.nu
 
-## nu-themes/tango-light.nu'
+## misterioso.nu
 
-![$in.name]($x.svg)
+![nu-themes/misterioso.nu](nu-themes\misterioso.svg)
 
-## nu-themes/tango.nu'
+Activate with source nu-themes/misterioso.nu
 
-![$in.name]($x.svg)
+## miu.nu
 
-## nu-themes/teerb.nu'
+![nu-themes/miu.nu](nu-themes\miu.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/miu.nu
 
-## nu-themes/tempus-autumn.nu'
+## mocha.nu
 
-![$in.name]($x.svg)
+![nu-themes/mocha.nu](nu-themes\mocha.svg)
 
-## nu-themes/tempus-classic.nu'
+Activate with source nu-themes/mocha.nu
 
-![$in.name]($x.svg)
+## molokai.nu
 
-## nu-themes/tempus-dawn.nu'
+![nu-themes/molokai.nu](nu-themes\molokai.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/molokai.nu
 
-## nu-themes/tempus-day.nu'
+## mona-lisa.nu
 
-![$in.name]($x.svg)
+![nu-themes/mona-lisa.nu](nu-themes\mona-lisa.svg)
 
-## nu-themes/tempus-dusk.nu'
+Activate with source nu-themes/mona-lisa.nu
 
-![$in.name]($x.svg)
+## mono-amber.nu
 
-## nu-themes/tempus-fugit.nu'
+![nu-themes/mono-amber.nu](nu-themes\mono-amber.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/mono-amber.nu
 
-## nu-themes/tempus-future.nu'
+## mono-cyan.nu
 
-![$in.name]($x.svg)
+![nu-themes/mono-cyan.nu](nu-themes\mono-cyan.svg)
 
-## nu-themes/tempus-night.nu'
+Activate with source nu-themes/mono-cyan.nu
 
-![$in.name]($x.svg)
+## mono-green.nu
 
-## nu-themes/tempus-past.nu'
+![nu-themes/mono-green.nu](nu-themes\mono-green.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/mono-green.nu
 
-## nu-themes/tempus-rift.nu'
+## mono-red.nu
 
-![$in.name]($x.svg)
+![nu-themes/mono-red.nu](nu-themes\mono-red.svg)
 
-## nu-themes/tempus-spring.nu'
+Activate with source nu-themes/mono-red.nu
 
-![$in.name]($x.svg)
+## mono-white.nu
 
-## nu-themes/tempus-summer.nu'
+![nu-themes/mono-white.nu](nu-themes\mono-white.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/mono-white.nu
 
-## nu-themes/tempus-tempest.nu'
+## mono-yellow.nu
 
-![$in.name]($x.svg)
+![nu-themes/mono-yellow.nu](nu-themes\mono-yellow.svg)
 
-## nu-themes/tempus-totus.nu'
+Activate with source nu-themes/mono-yellow.nu
 
-![$in.name]($x.svg)
+## monokai-dark.nu
 
-## nu-themes/tempus-warp.nu'
+![nu-themes/monokai-dark.nu](nu-themes\monokai-dark.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/monokai-dark.nu
 
-## nu-themes/tempus-winter.nu'
+## monokai-soda.nu
 
-![$in.name]($x.svg)
+![nu-themes/monokai-soda.nu](nu-themes\monokai-soda.svg)
 
-## nu-themes/tender.nu'
+Activate with source nu-themes/monokai-soda.nu
 
-![$in.name]($x.svg)
+## monokai.nu
 
-## nu-themes/terminal-basic.nu'
+![nu-themes/monokai.nu](nu-themes\monokai.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/monokai.nu
 
-## nu-themes/terminix-dark.nu'
+## mountaineer-grey.nu
 
-![$in.name]($x.svg)
+![nu-themes/mountaineer-grey.nu](nu-themes\mountaineer-grey.svg)
 
-## nu-themes/thayer-bright.nu'
+Activate with source nu-themes/mountaineer-grey.nu
 
-![$in.name]($x.svg)
+## mountaineer.nu
 
-## nu-themes/the-hulk.nu'
+![nu-themes/mountaineer.nu](nu-themes\mountaineer.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/mountaineer.nu
 
-## nu-themes/tin.nu'
+## n0tch2k.nu
 
-![$in.name]($x.svg)
+![nu-themes/n0tch2k.nu](nu-themes\n0tch2k.svg)
 
-## nu-themes/tokyo-day.nu'
+Activate with source nu-themes/n0tch2k.nu
 
-![$in.name]($x.svg)
+## nebula.nu
 
-## nu-themes/tokyo-moon.nu'
+![nu-themes/nebula.nu](nu-themes\nebula.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/nebula.nu
 
-## nu-themes/tokyo-night.nu'
+## neon-night.nu
 
-![$in.name]($x.svg)
+![nu-themes/neon-night.nu](nu-themes\neon-night.svg)
 
-## nu-themes/tokyo-storm.nu'
+Activate with source nu-themes/neon-night.nu
 
-![$in.name]($x.svg)
+## neopolitan.nu
 
-## nu-themes/tomorrow-night-blue.nu'
+![nu-themes/neopolitan.nu](nu-themes\neopolitan.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/neopolitan.nu
 
-## nu-themes/tomorrow-night-bright.nu'
+## nep.nu
 
-![$in.name]($x.svg)
+![nu-themes/nep.nu](nu-themes\nep.svg)
 
-## nu-themes/tomorrow-night-eighties.nu'
+Activate with source nu-themes/nep.nu
 
-![$in.name]($x.svg)
+## neutron.nu
 
-## nu-themes/tomorrow-night.nu'
+![nu-themes/neutron.nu](nu-themes\neutron.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/neutron.nu
 
-## nu-themes/tomorrow.nu'
+## nightfly.nu
 
-![$in.name]($x.svg)
+![nu-themes/nightfly.nu](nu-themes\nightfly.svg)
 
-## nu-themes/toy-chest.nu'
+Activate with source nu-themes/nightfly.nu
 
-![$in.name]($x.svg)
+## nightlion-v1.nu
 
-## nu-themes/treehouse.nu'
+![nu-themes/nightlion-v1.nu](nu-themes\nightlion-v1.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/nightlion-v1.nu
 
-## nu-themes/tube.nu'
+## nightlion-v2.nu
 
-![$in.name]($x.svg)
+![nu-themes/nightlion-v2.nu](nu-themes\nightlion-v2.svg)
 
-## nu-themes/twilight.nu'
+Activate with source nu-themes/nightlion-v2.nu
 
-![$in.name]($x.svg)
+## nighty.nu
 
-## nu-themes/two-firewatch.nu'
+![nu-themes/nighty.nu](nu-themes\nighty.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/nighty.nu
 
-## nu-themes/unikitty-dark.nu'
+## nord-alt.nu
 
-![$in.name]($x.svg)
+![nu-themes/nord-alt.nu](nu-themes\nord-alt.svg)
 
-## nu-themes/unikitty-light.nu'
+Activate with source nu-themes/nord-alt.nu
 
-![$in.name]($x.svg)
+## nord-light.nu
 
-## nu-themes/ura.nu'
+![nu-themes/nord-light.nu](nu-themes\nord-light.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/nord-light.nu
 
-## nu-themes/urple.nu'
+## nord.nu
 
-![$in.name]($x.svg)
+![nu-themes/nord.nu](nu-themes\nord.svg)
 
-## nu-themes/vag.nu'
+Activate with source nu-themes/nord.nu
 
-![$in.name]($x.svg)
+## nova.nu
 
-## nu-themes/vaughn.nu'
+![nu-themes/nova.nu](nu-themes\nova.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/nova.nu
 
-## nu-themes/vibrant-ink.nu'
+## novel.nu
 
-![$in.name]($x.svg)
+![nu-themes/novel.nu](nu-themes\novel.svg)
 
-## nu-themes/vs-code-dark-plus.nu'
+Activate with source nu-themes/novel.nu
 
-![$in.name]($x.svg)
+## nushell-dark.nu
 
-## nu-themes/vulcan.nu'
+![nu-themes/nushell-dark.nu](nu-themes\nushell-dark.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/nushell-dark.nu
 
-## nu-themes/warm-neon.nu'
+## nushell-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/nushell-light.nu](nu-themes\nushell-light.svg)
 
-## nu-themes/wez.nu'
+Activate with source nu-themes/nushell-light.nu
 
-![$in.name]($x.svg)
+## obsidian.nu
 
-## nu-themes/wild-cherry.nu'
+![nu-themes/obsidian.nu](nu-themes\obsidian.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/obsidian.nu
 
-## nu-themes/windows-10-light.nu'
+## ocean-dark.nu
 
-![$in.name]($x.svg)
+![nu-themes/ocean-dark.nu](nu-themes\ocean-dark.svg)
 
-## nu-themes/windows-10.nu'
+Activate with source nu-themes/ocean-dark.nu
 
-![$in.name]($x.svg)
+## ocean.nu
 
-## nu-themes/windows-95-light.nu'
+![nu-themes/ocean.nu](nu-themes\ocean.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/ocean.nu
 
-## nu-themes/windows-95.nu'
+## oceanic-material.nu
 
-![$in.name]($x.svg)
+![nu-themes/oceanic-material.nu](nu-themes\oceanic-material.svg)
 
-## nu-themes/windows-highcontrast-light.nu'
+Activate with source nu-themes/oceanic-material.nu
 
-![$in.name]($x.svg)
+## oceanic-next.nu
 
-## nu-themes/windows-highcontrast.nu'
+![nu-themes/oceanic-next.nu](nu-themes\oceanic-next.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/oceanic-next.nu
 
-## nu-themes/windows-nt-light.nu'
+## oceanicnext.nu
 
-![$in.name]($x.svg)
+![nu-themes/oceanicnext.nu](nu-themes\oceanicnext.svg)
 
-## nu-themes/windows-nt.nu'
+Activate with source nu-themes/oceanicnext.nu
 
-![$in.name]($x.svg)
+## ollie.nu
 
-## nu-themes/wombat.nu'
+![nu-themes/ollie.nu](nu-themes\ollie.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/ollie.nu
 
-## nu-themes/woodland.nu'
+## one-dark.nu
 
-![$in.name]($x.svg)
+![nu-themes/one-dark.nu](nu-themes\one-dark.svg)
 
-## nu-themes/wryan.nu'
+Activate with source nu-themes/one-dark.nu
 
-![$in.name]($x.svg)
+## one-half-black.nu
 
-## nu-themes/xcode-dusk.nu'
+![nu-themes/one-half-black.nu](nu-themes\one-half-black.svg)
 
-![$in.name]($x.svg)
+Activate with source nu-themes/one-half-black.nu
 
-## nu-themes/yachiyo.nu'
+## one-half-light.nu
 
-![$in.name]($x.svg)
+![nu-themes/one-half-light.nu](nu-themes\one-half-light.svg)
 
-## nu-themes/zenburn.nu'
+Activate with source nu-themes/one-half-light.nu
 
-![$in.name]($x.svg)
+## one-light.nu
+
+![nu-themes/one-light.nu](nu-themes\one-light.svg)
+
+Activate with source nu-themes/one-light.nu
+
+## onedark.nu
+
+![nu-themes/onedark.nu](nu-themes\onedark.svg)
+
+Activate with source nu-themes/onedark.nu
+
+## orbital.nu
+
+![nu-themes/orbital.nu](nu-themes\orbital.svg)
+
+Activate with source nu-themes/orbital.nu
+
+## outrun-dark.nu
+
+![nu-themes/outrun-dark.nu](nu-themes\outrun-dark.svg)
+
+Activate with source nu-themes/outrun-dark.nu
+
+## pali.nu
+
+![nu-themes/pali.nu](nu-themes\pali.svg)
+
+Activate with source nu-themes/pali.nu
+
+## palmtree.nu
+
+![nu-themes/palmtree.nu](nu-themes\palmtree.svg)
+
+Activate with source nu-themes/palmtree.nu
+
+## papercolor-dark.nu
+
+![nu-themes/papercolor-dark.nu](nu-themes\papercolor-dark.svg)
+
+Activate with source nu-themes/papercolor-dark.nu
+
+## papercolor-light.nu
+
+![nu-themes/papercolor-light.nu](nu-themes\papercolor-light.svg)
+
+Activate with source nu-themes/papercolor-light.nu
+
+## paraiso-dark.nu
+
+![nu-themes/paraiso-dark.nu](nu-themes\paraiso-dark.svg)
+
+Activate with source nu-themes/paraiso-dark.nu
+
+## paraiso.nu
+
+![nu-themes/paraiso.nu](nu-themes\paraiso.svg)
+
+Activate with source nu-themes/paraiso.nu
+
+## pasque.nu
+
+![nu-themes/pasque.nu](nu-themes\pasque.svg)
+
+Activate with source nu-themes/pasque.nu
+
+## paul-millr.nu
+
+![nu-themes/paul-millr.nu](nu-themes\paul-millr.svg)
+
+Activate with source nu-themes/paul-millr.nu
+
+## pencil-dark.nu
+
+![nu-themes/pencil-dark.nu](nu-themes\pencil-dark.svg)
+
+Activate with source nu-themes/pencil-dark.nu
+
+## pencil-light.nu
+
+![nu-themes/pencil-light.nu](nu-themes\pencil-light.svg)
+
+Activate with source nu-themes/pencil-light.nu
+
+## peppermint.nu
+
+![nu-themes/peppermint.nu](nu-themes\peppermint.svg)
+
+Activate with source nu-themes/peppermint.nu
+
+## phd.nu
+
+![nu-themes/phd.nu](nu-themes\phd.svg)
+
+Activate with source nu-themes/phd.nu
+
+## piatto-light.nu
+
+![nu-themes/piatto-light.nu](nu-themes\piatto-light.svg)
+
+Activate with source nu-themes/piatto-light.nu
+
+## pico.nu
+
+![nu-themes/pico.nu](nu-themes\pico.svg)
+
+Activate with source nu-themes/pico.nu
+
+## pnevma.nu
+
+![nu-themes/pnevma.nu](nu-themes\pnevma.svg)
+
+Activate with source nu-themes/pnevma.nu
+
+## pop.nu
+
+![nu-themes/pop.nu](nu-themes\pop.svg)
+
+Activate with source nu-themes/pop.nu
+
+## porple.nu
+
+![nu-themes/porple.nu](nu-themes\porple.svg)
+
+Activate with source nu-themes/porple.nu
+
+## pro.nu
+
+![nu-themes/pro.nu](nu-themes\pro.svg)
+
+Activate with source nu-themes/pro.nu
+
+## railscasts.nu
+
+![nu-themes/railscasts.nu](nu-themes\railscasts.svg)
+
+Activate with source nu-themes/railscasts.nu
+
+## rebecca.nu
+
+![nu-themes/rebecca.nu](nu-themes\rebecca.svg)
+
+Activate with source nu-themes/rebecca.nu
+
+## red-alert.nu
+
+![nu-themes/red-alert.nu](nu-themes\red-alert.svg)
+
+Activate with source nu-themes/red-alert.nu
+
+## red-sands.nu
+
+![nu-themes/red-sands.nu](nu-themes\red-sands.svg)
+
+Activate with source nu-themes/red-sands.nu
+
+## relaxed-afterglow.nu
+
+![nu-themes/relaxed-afterglow.nu](nu-themes\relaxed-afterglow.svg)
+
+Activate with source nu-themes/relaxed-afterglow.nu
+
+## renault-style-light.nu
+
+![nu-themes/renault-style-light.nu](nu-themes\renault-style-light.svg)
+
+Activate with source nu-themes/renault-style-light.nu
+
+## rippedcasts.nu
+
+![nu-themes/rippedcasts.nu](nu-themes\rippedcasts.svg)
+
+Activate with source nu-themes/rippedcasts.nu
+
+## rose-pine-dawn.nu
+
+![nu-themes/rose-pine-dawn.nu](nu-themes\rose-pine-dawn.svg)
+
+Activate with source nu-themes/rose-pine-dawn.nu
+
+## rose-pine-moon.nu
+
+![nu-themes/rose-pine-moon.nu](nu-themes\rose-pine-moon.svg)
+
+Activate with source nu-themes/rose-pine-moon.nu
+
+## rose-pine.nu
+
+![nu-themes/rose-pine.nu](nu-themes\rose-pine.svg)
+
+Activate with source nu-themes/rose-pine.nu
+
+## royal.nu
+
+![nu-themes/royal.nu](nu-themes\royal.svg)
+
+Activate with source nu-themes/royal.nu
+
+## sagelight.nu
+
+![nu-themes/sagelight.nu](nu-themes\sagelight.svg)
+
+Activate with source nu-themes/sagelight.nu
+
+## sandcastle.nu
+
+![nu-themes/sandcastle.nu](nu-themes\sandcastle.svg)
+
+Activate with source nu-themes/sandcastle.nu
+
+## sat.nu
+
+![nu-themes/sat.nu](nu-themes\sat.svg)
+
+Activate with source nu-themes/sat.nu
+
+## sea-shells.nu
+
+![nu-themes/sea-shells.nu](nu-themes\sea-shells.svg)
+
+Activate with source nu-themes/sea-shells.nu
+
+## seafoam-pastel.nu
+
+![nu-themes/seafoam-pastel.nu](nu-themes\seafoam-pastel.svg)
+
+Activate with source nu-themes/seafoam-pastel.nu
+
+## selenized-black.nu
+
+![nu-themes/selenized-black.nu](nu-themes\selenized-black.svg)
+
+Activate with source nu-themes/selenized-black.nu
+
+## selenized-dark.nu
+
+![nu-themes/selenized-dark.nu](nu-themes\selenized-dark.svg)
+
+Activate with source nu-themes/selenized-dark.nu
+
+## selenized-light.nu
+
+![nu-themes/selenized-light.nu](nu-themes\selenized-light.svg)
+
+Activate with source nu-themes/selenized-light.nu
+
+## selenized-white.nu
+
+![nu-themes/selenized-white.nu](nu-themes\selenized-white.svg)
+
+Activate with source nu-themes/selenized-white.nu
+
+## seoul256.nu
+
+![nu-themes/seoul256.nu](nu-themes\seoul256.svg)
+
+Activate with source nu-themes/seoul256.nu
+
+## seti-ui.nu
+
+![nu-themes/seti-ui.nu](nu-themes\seti-ui.svg)
+
+Activate with source nu-themes/seti-ui.nu
+
+## seti.nu
+
+![nu-themes/seti.nu](nu-themes\seti.svg)
+
+Activate with source nu-themes/seti.nu
+
+## shaman.nu
+
+![nu-themes/shaman.nu](nu-themes\shaman.svg)
+
+Activate with source nu-themes/shaman.nu
+
+## shapeshifter.nu
+
+![nu-themes/shapeshifter.nu](nu-themes\shapeshifter.svg)
+
+Activate with source nu-themes/shapeshifter.nu
+
+## shel.nu
+
+![nu-themes/shel.nu](nu-themes\shel.svg)
+
+Activate with source nu-themes/shel.nu
+
+## sierra.nu
+
+![nu-themes/sierra.nu](nu-themes\sierra.svg)
+
+Activate with source nu-themes/sierra.nu
+
+## silk-dark.nu
+
+![nu-themes/silk-dark.nu](nu-themes\silk-dark.svg)
+
+Activate with source nu-themes/silk-dark.nu
+
+## silk-light.nu
+
+![nu-themes/silk-light.nu](nu-themes\silk-light.svg)
+
+Activate with source nu-themes/silk-light.nu
+
+## slate.nu
+
+![nu-themes/slate.nu](nu-themes\slate.svg)
+
+Activate with source nu-themes/slate.nu
+
+## smyck.nu
+
+![nu-themes/smyck.nu](nu-themes\smyck.svg)
+
+Activate with source nu-themes/smyck.nu
+
+## snazzy.nu
+
+![nu-themes/snazzy.nu](nu-themes\snazzy.svg)
+
+Activate with source nu-themes/snazzy.nu
+
+## snow-dark.nu
+
+![nu-themes/snow-dark.nu](nu-themes\snow-dark.svg)
+
+Activate with source nu-themes/snow-dark.nu
+
+## snow-light.nu
+
+![nu-themes/snow-light.nu](nu-themes\snow-light.svg)
+
+Activate with source nu-themes/snow-light.nu
+
+## soft-server.nu
+
+![nu-themes/soft-server.nu](nu-themes\soft-server.svg)
+
+Activate with source nu-themes/soft-server.nu
+
+## solar-flare.nu
+
+![nu-themes/solar-flare.nu](nu-themes\solar-flare.svg)
+
+Activate with source nu-themes/solar-flare.nu
+
+## solarflare-light.nu
+
+![nu-themes/solarflare-light.nu](nu-themes\solarflare-light.svg)
+
+Activate with source nu-themes/solarflare-light.nu
+
+## solarflare.nu
+
+![nu-themes/solarflare.nu](nu-themes\solarflare.svg)
+
+Activate with source nu-themes/solarflare.nu
+
+## solarized-darcula.nu
+
+![nu-themes/solarized-darcula.nu](nu-themes\solarized-darcula.svg)
+
+Activate with source nu-themes/solarized-darcula.nu
+
+## solarized-dark-higher-contrast.nu
+
+![nu-themes/solarized-dark-higher-contrast.nu](nu-themes\solarized-dark-higher-contrast.svg)
+
+Activate with source nu-themes/solarized-dark-higher-contrast.nu
+
+## solarized-dark.nu
+
+![nu-themes/solarized-dark.nu](nu-themes\solarized-dark.svg)
+
+Activate with source nu-themes/solarized-dark.nu
+
+## solarized-light.nu
+
+![nu-themes/solarized-light.nu](nu-themes\solarized-light.svg)
+
+Activate with source nu-themes/solarized-light.nu
+
+## source-code-x.nu
+
+![nu-themes/source-code-x.nu](nu-themes\source-code-x.svg)
+
+Activate with source nu-themes/source-code-x.nu
+
+## sourcerer.nu
+
+![nu-themes/sourcerer.nu](nu-themes\sourcerer.svg)
+
+Activate with source nu-themes/sourcerer.nu
+
+## sourcerer2.nu
+
+![nu-themes/sourcerer2.nu](nu-themes\sourcerer2.svg)
+
+Activate with source nu-themes/sourcerer2.nu
+
+## spaceduck.nu
+
+![nu-themes/spaceduck.nu](nu-themes\spaceduck.svg)
+
+Activate with source nu-themes/spaceduck.nu
+
+## spacedust.nu
+
+![nu-themes/spacedust.nu](nu-themes\spacedust.svg)
+
+Activate with source nu-themes/spacedust.nu
+
+## spacegray-eighties-dull.nu
+
+![nu-themes/spacegray-eighties-dull.nu](nu-themes\spacegray-eighties-dull.svg)
+
+Activate with source nu-themes/spacegray-eighties-dull.nu
+
+## spacegray-eighties.nu
+
+![nu-themes/spacegray-eighties.nu](nu-themes\spacegray-eighties.svg)
+
+Activate with source nu-themes/spacegray-eighties.nu
+
+## spacegray.nu
+
+![nu-themes/spacegray.nu](nu-themes\spacegray.svg)
+
+Activate with source nu-themes/spacegray.nu
+
+## spacemacs.nu
+
+![nu-themes/spacemacs.nu](nu-themes\spacemacs.svg)
+
+Activate with source nu-themes/spacemacs.nu
+
+## spiderman.nu
+
+![nu-themes/spiderman.nu](nu-themes\spiderman.svg)
+
+Activate with source nu-themes/spiderman.nu
+
+## spring.nu
+
+![nu-themes/spring.nu](nu-themes\spring.svg)
+
+Activate with source nu-themes/spring.nu
+
+## square.nu
+
+![nu-themes/square.nu](nu-themes\square.svg)
+
+Activate with source nu-themes/square.nu
+
+## srcery.nu
+
+![nu-themes/srcery.nu](nu-themes\srcery.svg)
+
+Activate with source nu-themes/srcery.nu
+
+## substrata.nu
+
+![nu-themes/substrata.nu](nu-themes\substrata.svg)
+
+Activate with source nu-themes/substrata.nu
+
+## summercamp.nu
+
+![nu-themes/summercamp.nu](nu-themes\summercamp.svg)
+
+Activate with source nu-themes/summercamp.nu
+
+## summerfruit-dark.nu
+
+![nu-themes/summerfruit-dark.nu](nu-themes\summerfruit-dark.svg)
+
+Activate with source nu-themes/summerfruit-dark.nu
+
+## summerfruit-light.nu
+
+![nu-themes/summerfruit-light.nu](nu-themes\summerfruit-light.svg)
+
+Activate with source nu-themes/summerfruit-light.nu
+
+## sundried.nu
+
+![nu-themes/sundried.nu](nu-themes\sundried.svg)
+
+Activate with source nu-themes/sundried.nu
+
+## symphonic.nu
+
+![nu-themes/symphonic.nu](nu-themes\symphonic.svg)
+
+Activate with source nu-themes/symphonic.nu
+
+## synth-midnight-dark.nu
+
+![nu-themes/synth-midnight-dark.nu](nu-themes\synth-midnight-dark.svg)
+
+Activate with source nu-themes/synth-midnight-dark.nu
+
+## synth-midnight-light.nu
+
+![nu-themes/synth-midnight-light.nu](nu-themes\synth-midnight-light.svg)
+
+Activate with source nu-themes/synth-midnight-light.nu
+
+## tango-dark.nu
+
+![nu-themes/tango-dark.nu](nu-themes\tango-dark.svg)
+
+Activate with source nu-themes/tango-dark.nu
+
+## tango-light.nu
+
+![nu-themes/tango-light.nu](nu-themes\tango-light.svg)
+
+Activate with source nu-themes/tango-light.nu
+
+## tango.nu
+
+![nu-themes/tango.nu](nu-themes\tango.svg)
+
+Activate with source nu-themes/tango.nu
+
+## teerb.nu
+
+![nu-themes/teerb.nu](nu-themes\teerb.svg)
+
+Activate with source nu-themes/teerb.nu
+
+## tempus-autumn.nu
+
+![nu-themes/tempus-autumn.nu](nu-themes\tempus-autumn.svg)
+
+Activate with source nu-themes/tempus-autumn.nu
+
+## tempus-classic.nu
+
+![nu-themes/tempus-classic.nu](nu-themes\tempus-classic.svg)
+
+Activate with source nu-themes/tempus-classic.nu
+
+## tempus-dawn.nu
+
+![nu-themes/tempus-dawn.nu](nu-themes\tempus-dawn.svg)
+
+Activate with source nu-themes/tempus-dawn.nu
+
+## tempus-day.nu
+
+![nu-themes/tempus-day.nu](nu-themes\tempus-day.svg)
+
+Activate with source nu-themes/tempus-day.nu
+
+## tempus-dusk.nu
+
+![nu-themes/tempus-dusk.nu](nu-themes\tempus-dusk.svg)
+
+Activate with source nu-themes/tempus-dusk.nu
+
+## tempus-fugit.nu
+
+![nu-themes/tempus-fugit.nu](nu-themes\tempus-fugit.svg)
+
+Activate with source nu-themes/tempus-fugit.nu
+
+## tempus-future.nu
+
+![nu-themes/tempus-future.nu](nu-themes\tempus-future.svg)
+
+Activate with source nu-themes/tempus-future.nu
+
+## tempus-night.nu
+
+![nu-themes/tempus-night.nu](nu-themes\tempus-night.svg)
+
+Activate with source nu-themes/tempus-night.nu
+
+## tempus-past.nu
+
+![nu-themes/tempus-past.nu](nu-themes\tempus-past.svg)
+
+Activate with source nu-themes/tempus-past.nu
+
+## tempus-rift.nu
+
+![nu-themes/tempus-rift.nu](nu-themes\tempus-rift.svg)
+
+Activate with source nu-themes/tempus-rift.nu
+
+## tempus-spring.nu
+
+![nu-themes/tempus-spring.nu](nu-themes\tempus-spring.svg)
+
+Activate with source nu-themes/tempus-spring.nu
+
+## tempus-summer.nu
+
+![nu-themes/tempus-summer.nu](nu-themes\tempus-summer.svg)
+
+Activate with source nu-themes/tempus-summer.nu
+
+## tempus-tempest.nu
+
+![nu-themes/tempus-tempest.nu](nu-themes\tempus-tempest.svg)
+
+Activate with source nu-themes/tempus-tempest.nu
+
+## tempus-totus.nu
+
+![nu-themes/tempus-totus.nu](nu-themes\tempus-totus.svg)
+
+Activate with source nu-themes/tempus-totus.nu
+
+## tempus-warp.nu
+
+![nu-themes/tempus-warp.nu](nu-themes\tempus-warp.svg)
+
+Activate with source nu-themes/tempus-warp.nu
+
+## tempus-winter.nu
+
+![nu-themes/tempus-winter.nu](nu-themes\tempus-winter.svg)
+
+Activate with source nu-themes/tempus-winter.nu
+
+## tender.nu
+
+![nu-themes/tender.nu](nu-themes\tender.svg)
+
+Activate with source nu-themes/tender.nu
+
+## terminal-basic.nu
+
+![nu-themes/terminal-basic.nu](nu-themes\terminal-basic.svg)
+
+Activate with source nu-themes/terminal-basic.nu
+
+## terminix-dark.nu
+
+![nu-themes/terminix-dark.nu](nu-themes\terminix-dark.svg)
+
+Activate with source nu-themes/terminix-dark.nu
+
+## thayer-bright.nu
+
+![nu-themes/thayer-bright.nu](nu-themes\thayer-bright.svg)
+
+Activate with source nu-themes/thayer-bright.nu
+
+## the-hulk.nu
+
+![nu-themes/the-hulk.nu](nu-themes\the-hulk.svg)
+
+Activate with source nu-themes/the-hulk.nu
+
+## tin.nu
+
+![nu-themes/tin.nu](nu-themes\tin.svg)
+
+Activate with source nu-themes/tin.nu
+
+## tokyo-day.nu
+
+![nu-themes/tokyo-day.nu](nu-themes\tokyo-day.svg)
+
+Activate with source nu-themes/tokyo-day.nu
+
+## tokyo-moon.nu
+
+![nu-themes/tokyo-moon.nu](nu-themes\tokyo-moon.svg)
+
+Activate with source nu-themes/tokyo-moon.nu
+
+## tokyo-night.nu
+
+![nu-themes/tokyo-night.nu](nu-themes\tokyo-night.svg)
+
+Activate with source nu-themes/tokyo-night.nu
+
+## tokyo-storm.nu
+
+![nu-themes/tokyo-storm.nu](nu-themes\tokyo-storm.svg)
+
+Activate with source nu-themes/tokyo-storm.nu
+
+## tomorrow-night-blue.nu
+
+![nu-themes/tomorrow-night-blue.nu](nu-themes\tomorrow-night-blue.svg)
+
+Activate with source nu-themes/tomorrow-night-blue.nu
+
+## tomorrow-night-bright.nu
+
+![nu-themes/tomorrow-night-bright.nu](nu-themes\tomorrow-night-bright.svg)
+
+Activate with source nu-themes/tomorrow-night-bright.nu
+
+## tomorrow-night-eighties.nu
+
+![nu-themes/tomorrow-night-eighties.nu](nu-themes\tomorrow-night-eighties.svg)
+
+Activate with source nu-themes/tomorrow-night-eighties.nu
+
+## tomorrow-night.nu
+
+![nu-themes/tomorrow-night.nu](nu-themes\tomorrow-night.svg)
+
+Activate with source nu-themes/tomorrow-night.nu
+
+## tomorrow.nu
+
+![nu-themes/tomorrow.nu](nu-themes\tomorrow.svg)
+
+Activate with source nu-themes/tomorrow.nu
+
+## toy-chest.nu
+
+![nu-themes/toy-chest.nu](nu-themes\toy-chest.svg)
+
+Activate with source nu-themes/toy-chest.nu
+
+## treehouse.nu
+
+![nu-themes/treehouse.nu](nu-themes\treehouse.svg)
+
+Activate with source nu-themes/treehouse.nu
+
+## tube.nu
+
+![nu-themes/tube.nu](nu-themes\tube.svg)
+
+Activate with source nu-themes/tube.nu
+
+## twilight.nu
+
+![nu-themes/twilight.nu](nu-themes\twilight.svg)
+
+Activate with source nu-themes/twilight.nu
+
+## two-firewatch.nu
+
+![nu-themes/two-firewatch.nu](nu-themes\two-firewatch.svg)
+
+Activate with source nu-themes/two-firewatch.nu
+
+## unikitty-dark.nu
+
+![nu-themes/unikitty-dark.nu](nu-themes\unikitty-dark.svg)
+
+Activate with source nu-themes/unikitty-dark.nu
+
+## unikitty-light.nu
+
+![nu-themes/unikitty-light.nu](nu-themes\unikitty-light.svg)
+
+Activate with source nu-themes/unikitty-light.nu
+
+## ura.nu
+
+![nu-themes/ura.nu](nu-themes\ura.svg)
+
+Activate with source nu-themes/ura.nu
+
+## urple.nu
+
+![nu-themes/urple.nu](nu-themes\urple.svg)
+
+Activate with source nu-themes/urple.nu
+
+## vag.nu
+
+![nu-themes/vag.nu](nu-themes\vag.svg)
+
+Activate with source nu-themes/vag.nu
+
+## vaughn.nu
+
+![nu-themes/vaughn.nu](nu-themes\vaughn.svg)
+
+Activate with source nu-themes/vaughn.nu
+
+## vibrant-ink.nu
+
+![nu-themes/vibrant-ink.nu](nu-themes\vibrant-ink.svg)
+
+Activate with source nu-themes/vibrant-ink.nu
+
+## vs-code-dark-plus.nu
+
+![nu-themes/vs-code-dark-plus.nu](nu-themes\vs-code-dark-plus.svg)
+
+Activate with source nu-themes/vs-code-dark-plus.nu
+
+## vulcan.nu
+
+![nu-themes/vulcan.nu](nu-themes\vulcan.svg)
+
+Activate with source nu-themes/vulcan.nu
+
+## warm-neon.nu
+
+![nu-themes/warm-neon.nu](nu-themes\warm-neon.svg)
+
+Activate with source nu-themes/warm-neon.nu
+
+## wez.nu
+
+![nu-themes/wez.nu](nu-themes\wez.svg)
+
+Activate with source nu-themes/wez.nu
+
+## wild-cherry.nu
+
+![nu-themes/wild-cherry.nu](nu-themes\wild-cherry.svg)
+
+Activate with source nu-themes/wild-cherry.nu
+
+## windows-10-light.nu
+
+![nu-themes/windows-10-light.nu](nu-themes\windows-10-light.svg)
+
+Activate with source nu-themes/windows-10-light.nu
+
+## windows-10.nu
+
+![nu-themes/windows-10.nu](nu-themes\windows-10.svg)
+
+Activate with source nu-themes/windows-10.nu
+
+## windows-95-light.nu
+
+![nu-themes/windows-95-light.nu](nu-themes\windows-95-light.svg)
+
+Activate with source nu-themes/windows-95-light.nu
+
+## windows-95.nu
+
+![nu-themes/windows-95.nu](nu-themes\windows-95.svg)
+
+Activate with source nu-themes/windows-95.nu
+
+## windows-highcontrast-light.nu
+
+![nu-themes/windows-highcontrast-light.nu](nu-themes\windows-highcontrast-light.svg)
+
+Activate with source nu-themes/windows-highcontrast-light.nu
+
+## windows-highcontrast.nu
+
+![nu-themes/windows-highcontrast.nu](nu-themes\windows-highcontrast.svg)
+
+Activate with source nu-themes/windows-highcontrast.nu
+
+## windows-nt-light.nu
+
+![nu-themes/windows-nt-light.nu](nu-themes\windows-nt-light.svg)
+
+Activate with source nu-themes/windows-nt-light.nu
+
+## windows-nt.nu
+
+![nu-themes/windows-nt.nu](nu-themes\windows-nt.svg)
+
+Activate with source nu-themes/windows-nt.nu
+
+## wombat.nu
+
+![nu-themes/wombat.nu](nu-themes\wombat.svg)
+
+Activate with source nu-themes/wombat.nu
+
+## woodland.nu
+
+![nu-themes/woodland.nu](nu-themes\woodland.svg)
+
+Activate with source nu-themes/woodland.nu
+
+## wryan.nu
+
+![nu-themes/wryan.nu](nu-themes\wryan.svg)
+
+Activate with source nu-themes/wryan.nu
+
+## xcode-dusk.nu
+
+![nu-themes/xcode-dusk.nu](nu-themes\xcode-dusk.svg)
+
+Activate with source nu-themes/xcode-dusk.nu
+
+## yachiyo.nu
+
+![nu-themes/yachiyo.nu](nu-themes\yachiyo.svg)
+
+Activate with source nu-themes/yachiyo.nu
+
+## zenburn.nu
+
+![nu-themes/zenburn.nu](nu-themes\zenburn.svg)
+
+Activate with source nu-themes/zenburn.nu
