@@ -110,9 +110,9 @@ The parent `nu_scripts` package can be installed and updated using [Nupm].
    > **Note**
    > installing the `nu-scripts` package will install `nu-themes` and other modules
 
-## Screenshots
+## Preview Images
 
-Here are [screenshots](./screenshots/README.md) of our themes.
+[Theme Previews](theme-previews.md) lists previews for all themes as svg images.
 
 [Nupm]: https://github.com/nushell/nupm
 [Nupm instructions]: https://github.com/nushell/nupm#recycle-installation-toc
