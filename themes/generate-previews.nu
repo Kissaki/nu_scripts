@@ -24,7 +24,7 @@ let htmlThemesBody = $themes | each { $"
     <img src=\"($in.svg)\" alt=\"Preview of ($in.name) Nushell theme\"/>
     <div class=\"instructions\">Activate with <code>source ($in.name)</code></div>
   </div>" } | str join "\n"
-$'<html>
+$'<html><!-- Note: If you view on GitHub, prefer the Markdown (.md) file. If you open this html file locally it will render and has a denser and dynamic layout. -->
   <head>
     <meta charset="utf-8"><title>Nushelle Theme Previews</title>
     <meta name="viewport" content="width=device-width">
