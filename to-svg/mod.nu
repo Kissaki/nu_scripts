@@ -504,9 +504,13 @@ def process-attributes [attrs: list] {
         {
         }
       }
+      # Nothing remains
+      [] => {
+        {}
+      }
       _ => {
-        print "ERROR"
-        error make --unspanned { msg: "Should never fail a match"}
+        print $"ERROR ATTRS ($attrs)"
+        error make --unspanned { msg: $"Should never fail a match; matching: ($attrs)" }
       }
     }
   ))
@@ -514,7 +518,7 @@ def process-attributes [attrs: list] {
   # Return
   match $remaining {
     # Return the new state if there's nothing left to process
-    null => $new_state
+    [] => $new_state
     # Or merge the recursion otherwise
     $rest => {
       $new_state | process-attributes $rest
@@ -551,7 +555,7 @@ def process-line-tokens [preexisting_state?] {
         # ANSI attributes in the current state
         'text' => {
           {
-            foreground-content: ($state.foreground-content ++ ($state | create-tspan $token.content))
+            foreground-content: ($state.foreground-content | append ($state | create-tspan $token.content))
           }
         }
       }
@@ -615,7 +619,7 @@ def create-xml-tspans [--line-height: int] {
       if $bg_line != null {
         $lines ++ $bg_line ++ $line
       } else {
-        $lines ++ $line
+        $lines | append $line
       }
     }
 
@@ -672,7 +676,7 @@ def process-input-lines [] {
       let line_state = ($line | process-line-tokens $previous_line_state)
       let background_content = $line_state.foreground-content | add-background
 
-      $line_states ++ ($line_state | merge { background-content: $background_content })
+      $line_states | append ($line_state | merge { background-content: $background_content })
     }
     | select foreground-content background-content
 }
