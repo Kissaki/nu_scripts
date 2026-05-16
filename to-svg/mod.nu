@@ -530,7 +530,10 @@ def process-attributes [attrs: list] {
 # existing_state: color or attributes from previous
 # lines that have not yet been reset.
 def process-line-tokens [preexisting_state?] {
-  let tokens = ($in | tokenize_line)
+  let tokens = ($in
+    #| each { str replace --regex "\\e\\]8;;([^\\e]*)\\e\\\\([^\\e]*)\\e\\]8;;\\e\\\\" "<a href=\"$1>$2</a>" }  # Strip OSC sequences (e.g. ]8;; hyperlinks)
+    | each { str replace --regex "\\e\\]8;;([^\\e]*)\\e\\\\([^\\e]*)\\e\\]8;;\\e\\\\" '$2' }  # Strip OSC sequences (e.g. ]8;; hyperlinks)
+    | tokenize_line)
   let starting_line_state = ($preexisting_state | default $default_state)
 
   # Initial state
